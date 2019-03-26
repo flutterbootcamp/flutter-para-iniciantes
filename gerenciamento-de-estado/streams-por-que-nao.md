@@ -1,2 +1,0 @@
-# Streams: Por que não ?!
-

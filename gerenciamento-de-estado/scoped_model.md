@@ -1,2 +1,0 @@
-# scoped\_model
-
