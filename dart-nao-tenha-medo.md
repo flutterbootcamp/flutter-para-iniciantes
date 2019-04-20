@@ -56,3 +56,51 @@ Map<String, String> image = {
 };
 ```
 
+#### Controle de fluxo :
+
+```dart
+if (year >= 2001) {
+  print('21st century');
+} else if (year >= 1901) {
+  print('20th century');
+}
+
+for (var object in flybyObjects) {
+  print(object);
+}
+
+for (int month = 1; month <= 12; month++) {
+  print(month);
+}
+
+while (year < 2016) {
+  year += 1;
+}
+```
+
+#### Funções :
+
+```dart
+int fibonacci(int n) {
+  if (n == 0 || n == 1) return n;
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+var result = fibonacci(20);
+```
+
+#### Tratamento de exceções :
+
+```dart
+try {
+  for (var object in flybyObjects) {
+    var description = await File('$object.txt').readAsString();
+    print(description);
+  }
+} on IOException catch (e) {
+  print('Could not describe object: $e');
+} finally {
+  flybyObjects.clear();
+}
+```
+
