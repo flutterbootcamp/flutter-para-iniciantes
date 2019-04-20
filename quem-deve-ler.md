@@ -22,3 +22,7 @@ Há um extenso [guia](https://flutter.dev/docs/get-started/flutter-for/android-d
 
 Programadores iOS também possuem um [guia](https://flutter.dev/docs/get-started/flutter-for/ios-devs) exclusivo e também um vídeo de introdução ao [Cupertino](https://flutter.dev/docs/development/ui/widgets/cupertino) package \(conjunto de widgets que seguem as definições de [design](https://developer.apple.com/design/resources/) da Apple\).
 
+**Já conheço outras tecnologias como React Native, Ionic, Xamarin.Form.**
+
+Ótimo, então sabe bem das vantagens e desvantagens do desenvolvimento cross-platform. Como vantagens em relação a estas alterna, Flutter possui 
+
