@@ -8,6 +8,7 @@ Ela surgiu de uma necessidade do Google, que buscava uma alternativa ao Javascri
 * Fortemente tipada, porém isto é opcional.
 * Suporte à Generics&lt;T&gt;, funções, interfaces e mixins.
 * Utiliza sintáxe _C-style_ \(como C\#, Java\).
+* Dart é compilado e não interpretado
 
 Tipos suportados:
 
