@@ -10,7 +10,9 @@ Flutter é o SDK do Google para construir aplicativos nativos para Android e iOS
 
 Assim como outras tecnologias _**cross-platform**_, Flutter oferece a possibilidade de termos apenas um código-base e entregar aplicativos para ambas pataformas.
 
-Flutter oferece uma das melhores opções para os desenvolvedores e usuários.
+Utilizando a linguagem Dart \(que também foi criada pelo Google\), Flutter oferece uma incrível experiência para desenvolvedores e usuários.
+
+##  
 
 ## Sobre este livro
 
