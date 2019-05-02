@@ -12,7 +12,7 @@ Assim como outras tecnologias _**cross-platform**_, Flutter oferece a possibilid
 
 Utilizando a linguagem Dart \(que também foi criada pelo Google\), Flutter oferece uma incrível experiência para desenvolvedores e usuários.
 
-##  
+## 
 
 ## Sobre este livro
 
