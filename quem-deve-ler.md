@@ -4,7 +4,7 @@ description: >-
   abaixo, siga em frente.
 ---
 
-# Este livro é para mim?
+# Este ebook é para mim?
 
 #### Não tenho nenhuma experiência com programação
 

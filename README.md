@@ -4,13 +4,13 @@ description: 'Futuro desenvolvedor Flutter, bem-vindo. Este livro é para você.
 
 # Introdução
 
-## O que é Flutter?
+## O que é Flutter??
 
 Flutter é o SDK do Google para construir aplicativos nativos para Android e iOS.
 
 Assim como outras tecnologias _**cross-platform**_, Flutter oferece a possibilidade de termos apenas um código-base e entregar aplicativos para ambas pataformas.
 
-Utiliza a linguagem Dart \(que também foi criada pelo Google\), Flutter oferece uma incrível experiência para desenvolvedores e usuários.
+Utilizando a linguagem Dart \(que também foi criada pelo Google\), Flutter oferece uma incrível experiência para desenvolvedores e usuários.
 
 ## Por que escolher Flutter para o seu app?
 

@@ -1,6 +1,6 @@
 ---
-description: Separando a lógica de negócio da interface
+description: Todo o poder das Streams  à seu favor.
 ---
 
-# BLOC
+# BLoC
 

@@ -1,14 +1,17 @@
+---
+description: >-
+  É a linguagem de programação criada pelo Google e utilizada para escrever o
+  Flutter. É orientada à objetos, open-source.
+---
+
 # Dart: Não tenha medo
 
-Dart é a linguagem de programação criada pelo Google e utilizada para escrever o Flutter. É orientada à objetos e open-source.
+ À medida que avançarmos com o conteúdo, você irá aprender aprender aos poucos, não se preocupe.
 
-Ela surgiu de uma necessidade do Google, que buscava uma alternativa ao Javascript, para escrever código no tanto no frontend quanto no backend. 
-
-* Tudo o que se pode armazenar em variáveis é um [Object](https://api.dartlang.org/stable/2.2.0/dart-core/Object-class.html).
-* Fortemente tipada, porém isto é opcional.
-* Suporte à Generics&lt;T&gt;, funções, interfaces e mixins.
-* Utiliza sintáxe _C-style_ \(como C\#, Java\).
-* Dart é compilado e não interpretado
+* Tipada, porém isto é opcional.
+* Morderna \(generics&lt;T&gt;, funções, interfaces e mixins\).
+* Utiliza sintáxe _C-style_ \(como C\#, Javascript\).
+* Pode ser compilada e interpretada. ****
 
 Tipos suportados:
 

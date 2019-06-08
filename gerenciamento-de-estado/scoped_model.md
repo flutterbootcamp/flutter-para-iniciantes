@@ -1,5 +1,5 @@
 ---
-description: Está começando? Este é gerenciamento de estado recomendado pelo Flutter
+description: O mais fácil para quem está começando.
 ---
 
 # scoped\_model

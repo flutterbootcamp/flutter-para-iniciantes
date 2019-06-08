@@ -1,2 +1,6 @@
-# Como o livro está organizado?
+---
+description: Não se perca.
+---
+
+# Como o ebook está organizado?
 
