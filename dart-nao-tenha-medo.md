@@ -1,12 +1,20 @@
 ---
 description: >-
   É a linguagem de programação criada pelo Google e utilizada para escrever o
-  Flutter. É orientada à objetos, open-source.
+  Flutter. Se você já conhece Javascript, Java, C#, vai se sentir em casa.
 ---
 
 # Dart: Não tenha medo
 
- À medida que avançarmos com o conteúdo, você irá aprender aprender aos poucos, não se preocupe.
+Flutter sofre algumas críticas pelo fato de utilizar Dart, mas é graças a ela que ele se torna uma framework único. Ela é responsável por possibilitar ao Flutter o hot-reload e garantir uma performance nativa ao gerarmos nosso aplicativo.
+
+Caso você já possua experiência com qualquer linguagem _C-style_, irá perceber que Dart é muito amigável e não terá dificuldades em aprende-la.
+
+Recomendo o estudo deste [guia](https://dart.dev/guides/language/language-tour), aqueles que gostam de se familiarizar com a linguagem antes de aprender o framework. Particularmente, não vejo necessidade de se aprofundar na linguagem para começar.O conhecimento básico é suficiente para dar os primeiros passos e sentir deliciosa experiência de construir um aplicativo bacana.
+
+À medida que avançarmos com o conteúdo, você irá aprender Dart aos poucos, não se preocupe.
+
+Algumas características:
 
 * Tipada, porém isto é opcional.
 * Morderna \(generics&lt;T&gt;, funções, interfaces e mixins\).
@@ -30,7 +38,7 @@ Tipos suportados:
 
 ```dart
 void main() {
-  print('Hello, World!');
+  print('Olá, Mundo!');
 }
 ```
 
@@ -107,4 +115,18 @@ try {
   flybyObjects.clear();
 }
 ```
+
+Sobre a tipagem opicional, gostaria de reforças o seguinte ponto:
+
+```dart
+//declaração explícita do tipo da variável (String)
+String name = 'Voyager I';
+
+//declaração de variável sem especificar seu tipo
+var name = 'Voyager I';
+```
+
+{% hint style="info" %}
+#### Por inferência, Dart identifica o tipo da variável e nos garante todos os benefícios da tipagem estática, por isso a tal tipagem "opcional"
+{% endhint %}
 
