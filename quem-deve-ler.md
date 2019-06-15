@@ -1,7 +1,5 @@
 ---
-description: >-
-  Descubra você mesmo. Se a sua resposta for SIM para algumas das pergunta
-  abaixo, siga em frente.
+description: Descubra você mesmo.
 ---
 
 # Este ebook é para mim?
@@ -24,7 +22,7 @@ Há um extenso [guia](https://flutter.dev/docs/get-started/flutter-for/android-d
 
 Programadores iOS também possuem um [guia](https://flutter.dev/docs/get-started/flutter-for/ios-devs) exclusivo e também um vídeo de introdução ao [Cupertino](https://flutter.dev/docs/development/ui/widgets/cupertino) package \(conjunto de widgets que seguem as definições de [design](https://developer.apple.com/design/resources/) da Apple\).
 
-**Já conheço outras tecnologias como React Native, Ionic, Xamarin.Form.**
+**Já conheço outras tecnologias cross-platform.**
 
-Ótimo, então sabe bem das vantagens e desvantagens do desenvolvimento cross-platform. Como vantagens em relação a estas alterna, Flutter possui 
+Ótimo, então sabe bem das vantagens e desvantagens do desenvolvimento cross-platform. Na documentação, há um guia para quem vem do [React Native](https://flutter.dev/docs/get-started/flutter-for/react-native-devs) e do [Xamarin.Forms](https://flutter.dev/docs/get-started/flutter-for/xamarin-forms-devs). 
 

@@ -10,7 +10,7 @@ Flutter é baseado em 3 pilares:
 * Interfaces super bonitas
 * Performance nativa
 
-Por estas 3 características, ele já pode ser considerado um forte candidato. Diferentemente de outras tecnologias _**cross-platform não há degradação de performace**_
+Por estas 3 características, ele já pode ser considerado um forte candidato.
 
 Por que escolher Flutter para o seu app?
 

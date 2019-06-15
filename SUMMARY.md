@@ -7,6 +7,9 @@
 * [Como o ebook está organizado?](como-o-livro-esta-organizado.md)
 * [Dart: Não tenha medo](dart-nao-tenha-medo.md)
 * [Flutter: Visão Geral](flutter-visao-geral.md)
+* [Arquitetura](arquitetura.md)
+* [Developer Experience](developer-experience.md)
+* [Visão Geral](visao-geral.md)
 
 ## Básico do básico
 
