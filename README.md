@@ -8,7 +8,7 @@ Flutter é a ferramenta do Google para desenvolvimento de aplicativos para Andro
 
 Assim como [React Native](https://facebook.github.io/react-native/), [Xamarin](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/) e [Ionic](https://ionicframework.com), Flutter é o Google nos fornecendo mais uma opção para escolha de tecnologia cross-platform.
 
-Espero, verdadeiramente, com este livro, despertar o seu interesse para que o você utilize o Flutter em seu próximo projeto.
+Espero, verdadeiramente, com este livro, despertar o seu interesse para que o Flutter esteja no seu próximo projeto.
 
 ## Sobre este livro
 

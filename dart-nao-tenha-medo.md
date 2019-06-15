@@ -68,6 +68,22 @@ Map<String, String> image = {
 };
 ```
 
+{% hint style="warning" %}
+Sobre a tipagem opicional, gostaria de reforças o seguinte ponto:
+{% endhint %}
+
+```dart
+//declaração explícita do tipo da variável (String)
+String name = 'Voyager I';
+
+//declaração de variável sem especificar seu tipo
+var name = 'Voyager I';
+```
+
+{% hint style="info" %}
+#### Por inferência, Dart identifica o tipo da variável e nos garante todos os benefícios da tipagem estática, por isso a tal tipagem "opcional"
+{% endhint %}
+
 #### Controle de fluxo :
 
 ```dart
@@ -115,18 +131,4 @@ try {
   flybyObjects.clear();
 }
 ```
-
-Sobre a tipagem opicional, gostaria de reforças o seguinte ponto:
-
-```dart
-//declaração explícita do tipo da variável (String)
-String name = 'Voyager I';
-
-//declaração de variável sem especificar seu tipo
-var name = 'Voyager I';
-```
-
-{% hint style="info" %}
-#### Por inferência, Dart identifica o tipo da variável e nos garante todos os benefícios da tipagem estática, por isso a tal tipagem "opcional"
-{% endhint %}
 
