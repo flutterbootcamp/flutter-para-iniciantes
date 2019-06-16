@@ -8,7 +8,7 @@ description: >-
 
 Em seu site, a definição oficial é:
 
-**Flutter é o kit de ferramentas do Google para construir aplicações lindas, nativamente compiladas para mobile, web, desktop à partir de um único código-base."**
+**Flutter é um kit de ferramentas do Google para construir aplicações lindas, nativamente compiladas para mobile, web, desktop à partir de um único código-base."**
 
 Resumindo: você vai escrever o código apenas 1 vez e seu aplicativo vai poder ser executados em até 4 plataformas diferentes.
 

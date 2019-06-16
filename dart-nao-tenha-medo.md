@@ -6,7 +6,7 @@ description: >-
 
 # Dart: Não tenha medo
 
-Flutter sofre algumas críticas pelo fato de utilizar Dart, mas é graças a ela que ele se torna uma framework único. Ela é responsável por possibilitar ao Flutter o hot-reload e garantir uma performance nativa ao gerarmos nosso aplicativo.
+Flutter sofre algumas críticas pelo fato de utilizar Dart, mas é graças à ela que ele se torna um framework único, tanto para o desenvolvedor quanto para o usuário final. O desenvolvedor tem uma incrível [experiência](developer-experience.md) e o usuário final tem um aplicativo nativo, de alta performance.
 
 Caso você já possua experiência com qualquer linguagem _C-style_, irá perceber que Dart é muito amigável e não terá dificuldades em aprende-la.
 

@@ -1,5 +1,5 @@
 ---
-description: Entenda como a mágica acontece
+description: 'Entender como o framework funciona por baixo dos panos,'
 ---
 
 # Arquitetura
