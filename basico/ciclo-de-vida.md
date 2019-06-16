@@ -4,5 +4,5 @@ description: >-
   para entender o comportamento do seu aplicativo.
 ---
 
-# Ciclo de vida dos Widgets
+# Ciclo de vida dos widgets
 

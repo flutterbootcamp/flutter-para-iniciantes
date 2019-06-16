@@ -10,14 +10,15 @@ Flutter sofre algumas críticas pelo fato de utilizar Dart, mas é graças à el
 
 Caso você já possua experiência com qualquer linguagem _C-style_, irá perceber que Dart é muito amigável e não terá dificuldades em aprende-la.
 
-Recomendo o estudo deste [guia](https://dart.dev/guides/language/language-tour), aqueles que gostam de se familiarizar com a linguagem antes de aprender o framework. Particularmente, não vejo necessidade de se aprofundar na linguagem para começar.O conhecimento básico é suficiente para dar os primeiros passos e sentir deliciosa experiência de construir um aplicativo bacana.
+Recomendo o estudo deste [guia](https://dart.dev/guides/language/language-tour), aqueles que gostam de se familiarizar com a linguagem antes de aprender o framework. Particularmente, não vejo necessidade de se aprofundar para começar. O conhecimento básico, proporcionado pelo guia, é suficiente para dar os primeiros passos e sentir deliciosa experiência de construir um aplicativo bacana.
 
 À medida que avançarmos com o conteúdo, você irá aprender Dart aos poucos, não se preocupe.
 
-Algumas características:
+Algumas características da linguagem:
 
 * Tipada, porém isto é opcional.
 * Morderna \(generics&lt;T&gt;, funções, interfaces e mixins\).
+* High Order Functions \( forEach\(\), map\(\), etc \).
 * Utiliza sintáxe _C-style_ \(como C\#, Javascript\).
 * Pode ser compilada e interpretada. ****
 

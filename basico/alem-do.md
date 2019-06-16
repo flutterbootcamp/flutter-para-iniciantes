@@ -1,2 +1,2 @@
-# Stateless x Stateful: Além do exemplo inicial
+# Stateless x Stateful
 

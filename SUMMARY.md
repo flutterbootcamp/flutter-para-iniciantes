@@ -1,20 +1,20 @@
 # Table of contents
 
 * [Introdução](README.md)
+* [Como o ebook está organizado?](como-o-livro-esta-organizado.md)
 * [O que é Flutter?](o-que-e-flutter.md)
 * [Por que o Flutter?](por-que-o-flutter.md)
 * [Este ebook é para mim?](quem-deve-ler.md)
-* [Como o ebook está organizado?](como-o-livro-esta-organizado.md)
 * [Dart: Não tenha medo](dart-nao-tenha-medo.md)
-* [Flutter: Visão Geral](flutter-visao-geral.md)
-* [Arquitetura](arquitetura.md)
 * [Developer Experience](developer-experience.md)
 * [Visão Geral](visao-geral.md)
+* [Arquitetura](arquitetura.md)
+* [Instalação e configuração do ambiente](instalacao-e-configuracao-do-ambiente.md)
 
 ## Básico do básico
 
-* [Ciclo de vida dos Widgets](basico/ciclo-de-vida.md)
-* [Stateless x Stateful: Além do exemplo inicial](basico/alem-do.md)
+* [Stateless x Stateful](basico/alem-do.md)
+* [Ciclo de vida dos widgets](basico/ciclo-de-vida.md)
 * [Navegação](basico/navegacao.md)
 
 ## Gerenciamento de estado
