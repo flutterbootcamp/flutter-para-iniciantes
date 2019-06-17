@@ -10,15 +10,15 @@ Entender a arquitetura do Flutter é importante, precisamos entender todo a "ana
 
 {% tabs %}
 {% tab title="Your code" %}
-Código Dart do aplicativo, códigos específicos de cada plataforma \(caso haja\), os packages e plugins do projeto \(que também são códigos Dart e/ou específicos\), imagens, fontes e qualquer outro ativo do projeto.
+Código Dart do aplicativo, códigos específicos de cada plataforma \(caso haja\), os packages e plugins \(que também são códigos Dart e/ou específicos\), imagens, fontes e qualquer outro ativo do projeto.
 {% endtab %}
 
 {% tab title="Flutter \(framework\)" %}
-O framework em si. 
+O framework em si, também escrito em Dart. 
 {% endtab %}
 
 {% tab title="Flutter \(engine\)" %}
-O motor responsável por unir o seu código e o do framework e fazer a compilação para arm/x86 \(intruções binárias\).
+O motor responsável por unir o seu código e o do framework e prepará-los para que sejam executados pelo hardware.
 
 Utiliza a biblioteca [Skia](https://skia.org) e o mesmo processador de textos do Google Chrome.
 {% endtab %}
@@ -32,10 +32,14 @@ Não precisa de explicação né ?!
 {% endtab %}
 {% endtabs %}
 
-![Fonte: https://www.youtube.com/watch?v=IyFZznAk69U&amp;t=764s](.gitbook/assets/dart-arquitetura.png)
+![](.gitbook/assets/dart-arquitetura.png)
+
+{% hint style="info" %}
+Durante o desenvolvimento, o seu código Dart é interpretado \(JIT\), possibilitando assim o hot reload e hot restart.
+{% endhint %}
 
 {% hint style="danger" %}
-Ao gerar a versão final de um aplicativo, o código Dart é compilado para arm/x86 e executado diretamente pelo hardware e isto é o que garante a alta performance.
+Ao gerar a versão final de um aplicativo, o código Dart é compilado \(AOT\) para bibliotecas arm/x86 e executado diretamente pelo hardware e isto é o que garante a alta performance.
 {% endhint %}
 
 ## Flutter framework:

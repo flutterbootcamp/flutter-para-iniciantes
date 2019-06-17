@@ -6,13 +6,13 @@ description: >-
 
 # Visão Geral
 
-É importante entender alguns conceitos, termos antes de cairmos de cabeça no framework. Provavelmente, quando você pesquisar sobre Flutter, encontrará a seguinte afirmação: 
+É importante entender alguns conceitos e termos antes de cairmos de cabeça no framework. Provavelmente, quando você pesquisar sobre Flutter, encontrará a seguinte afirmação: 
 
 > #### "In Flutter, everything is a widget" \(No Flutter, tudo é um widget\).
 
 **Widget:** É um componente do seu aplicativo, seja um botão, um ícone, um texto, uma imagem, etc. Ao final, vários widgets irão compor o nosso aplicativo. E a pronúncia é _uidjêt_.
 
-**Widget tree:** É a estrutura que representa como nossos widgets estão organizados. Conforme os widget vão sendo criados/destruídos, a árvore de widget também vai sofrendo alterações. Assim como em uma página web temos o [DOM](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM), no Flutter, temos a widget tree.
+**Widget tree:** É a estrutura que representa como nossos widgets estão organizados. Conforme os widget vão sendo criados/destruídos, a árvore de widgets também vai sofrendo alterações. Assim como em uma página web temos o [DOM](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM), no Flutter, temos a widget tree.
 
 {% hint style="info" %}
 Este conceito é importante e iremos apronfundá-lo quando aprendermos sobre gerenciamento de estado.
@@ -48,9 +48,7 @@ Entender a diferença entre composição sobre herança, no contexto de um aplic
 
 Lembrando que widgets são pequenos "blocos", fica simples de entender o motivo de Flutter utilizar esse conceito. Conforme formos montando vários blocos, nosso aplicativo vai tomando forma. Esta montagem dos blocos é a composição.
 
-Vamos ver na prática como isso funciona:
-
 {% hint style="info" %}
-Fique tranquilo caso não tenha compreendido 100% estes dois conceitos. Ao decorrer do livro, conforme formos criando nossos aplicativos, ficará fácil de entender. Nada melhor do que a mão na massa para solidificar o aprendizado.
+Caso não tenha compreendido 100% estes dois conceitos, não tem problema. Ao decorrer do livro, conforme formos criando nossos aplicativos, ficará fácil de entender. Nada melhor do que a mão na massa para solidificar o aprendizado.
 {% endhint %}
 

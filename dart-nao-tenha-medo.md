@@ -70,7 +70,7 @@ Map<String, String> image = {
 ```
 
 {% hint style="warning" %}
-Sobre a tipagem opicional, gostaria de reforças o seguinte ponto:
+Sobre a tipagem opicional, gostaria de reforçar o seguinte ponto:
 {% endhint %}
 
 ```dart
@@ -82,7 +82,7 @@ var name = 'Voyager I';
 ```
 
 {% hint style="info" %}
-#### Por inferência, Dart identifica o tipo da variável e nos garante todos os benefícios da tipagem estática, por isso a tal tipagem "opcional"
+#### Por inferência, Dart identifica o tipo da variável e nos garante todos os benefícios da tipagem estática, por isso a tal tipagem "opcional".
 {% endhint %}
 
 #### Controle de fluxo :

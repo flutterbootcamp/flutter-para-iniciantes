@@ -8,11 +8,11 @@ description: Descubra você mesmo.
 
 Não tem problema, tendo uma boa base de lógica de programação e orientação à objetos, será fácil dar os primeitos passos. Dart e Flutter possuem excelentes documentações, comunidade receptiva e vários materiais para ir do básico ao avançado, sem dor de cabeça. 
 
-À medida que iremos avançando com o conteúdo, iremos abordar o necessário da linguagem Dart para aquela ponto, fique tranquilo.
+À medida que iremos avançando com o conteúdo, abordaremos o necessário da linguagem Dart para aquele ponto.
 
 #### Sou desenvolvedor web.
 
-Fique tranquilo, pois Dart é tão fácil quanto Javascript e a documentação oficial do Flutter possui um excelente [guia](https://flutter.dev/docs/get-started/flutter-for/web-devs) para você. 
+Não se preocupe, pois Dart é tão fácil quanto Javascript e a documentação oficial do Flutter possui um excelente [guia](https://flutter.dev/docs/get-started/flutter-for/web-devs) para você. 
 
 Vale ressaltar que é possível escrever aplicações para web com Dart, utilizando o framework [AngularDart](https://webdev.dartlang.org).
 
