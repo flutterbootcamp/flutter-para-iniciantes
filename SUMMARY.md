@@ -16,7 +16,6 @@
 * [Widgets](basico/widgets.md)
 * [Stateless x Stateful](basico/alem-do.md)
 * [Ciclo de vida dos widgets](basico/ciclo-de-vida.md)
-* [Navegação](basico/navegacao.md)
 
 ## Gerenciamento de estado
 
@@ -27,11 +26,17 @@
 * [provider](gerenciamento-de-estado/provider.md)
 * [BLoC](gerenciamento-de-estado/untitled.md)
 
-## Firebase
-
-* [O backend do seu aplicativo](firebase/untitled.md)
-
 ## Copia e Cola
 
 * [Copia e Cola](copia-e-cola/so.md)
+
+## Navegação
+
+* [Navigator](navegacao/navigator.md)
+* [RouteFactory](navegacao/routefactory.md)
+* [Named Routes](navegacao/named-routes.md)
+
+## Firebase
+
+* [O backend do seu aplicativo](firebase/untitled.md)
 
