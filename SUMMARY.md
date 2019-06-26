@@ -11,14 +11,16 @@
 * [Arquitetura](arquitetura.md)
 * [Instalação e configuração do ambiente](instalacao-e-configuracao-do-ambiente.md)
 
-## Básico do básico
+## Básico do básico <a id="basico"></a>
 
+* [Widgets](basico/widgets.md)
 * [Stateless x Stateful](basico/alem-do.md)
 * [Ciclo de vida dos widgets](basico/ciclo-de-vida.md)
 * [Navegação](basico/navegacao.md)
 
 ## Gerenciamento de estado
 
+* [Widget Tree](gerenciamento-de-estado/widget-tree.md)
 * [setState\(\)](gerenciamento-de-estado/setstate.md)
 * [InheritedWidget](gerenciamento-de-estado/inheritedwidget.md)
 * [scoped\_model](gerenciamento-de-estado/scoped_model.md)

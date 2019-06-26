@@ -10,6 +10,13 @@ Assim como [React Native](https://facebook.github.io/react-native/), [Xamarin](h
 
 Espero, verdadeiramente, com este livro, despertar o seu interesse para que o Flutter esteja no seu próximo projeto.
 
+## Em progresso:
+
+* Widgets
+  * UI / Layout
+  * Stateless x Stateful
+  * Ciclo de vida dos widgets
+
 ## À fazer:
 
 * [ ] Navegação
@@ -18,12 +25,6 @@ Espero, verdadeiramente, com este livro, despertar o seu interesse para que o Fl
 * [ ] Firebase
 * [ ] Testes
 * [ ] Dart Avançado
-
-## Em progresso:
-
-* Ciclo de vida dos widgets
-* Stateless x Stateful
-* Widgets: UI / Layout
 
 ## Concluído:
 
