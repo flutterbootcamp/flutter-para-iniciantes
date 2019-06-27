@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introdução](README.md)
+* [Sobre este livro](README.md)
 * [Como o ebook está organizado?](como-o-livro-esta-organizado.md)
 * [O que é Flutter?](o-que-e-flutter.md)
 * [Por que o Flutter?](por-que-o-flutter.md)
@@ -10,18 +10,13 @@
 * [Visão Geral](visao-geral.md)
 * [Arquitetura](arquitetura.md)
 * [Instalação e configuração do ambiente](instalacao-e-configuracao-do-ambiente.md)
+* [Hello World](hello-world.md)
 
 ## Básico do básico <a id="basico"></a>
 
 * [Widgets](basico/widgets.md)
 * [Stateless x Stateful](basico/alem-do.md)
 * [Ciclo de vida dos widgets](basico/ciclo-de-vida.md)
-
-## Navegação
-
-* [Navigator](navegacao/navigator.md)
-* [Named Routes](navegacao/named-routes.md)
-* [RouteFactory](navegacao/routefactory.md)
 
 ## Gerenciamento de estado
 
