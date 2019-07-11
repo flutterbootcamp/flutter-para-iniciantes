@@ -4,7 +4,28 @@ description: Não poderia ser diferente
 
 # Hello World
 
-Vamos escrever e entender por onde um aplicativo Flutter nasce. O resultado final é uma tela em toda preta, com o texto `Hello, world!` centralizado.
+Vamos escrever e entender por onde um aplicativo Flutter nasce. Vamos iniciar um novo projeto através da linha de comando do Flutter:
+
+```bash
+flutter create hello_world
+```
+
+Em poucos segundos, um novo projeto foi criado:
+
+```text
+In order to run your application, type:
+
+  $ cd hello_world
+  $ flutter run
+
+Your application code is in hello_world\lib\main.dart.
+```
+
+{% hint style="success" %}
+No VS Code, acesse a pasta **hello\_world** e digite o comando "code ." \(assim o VS code será aberto imediatamente
+{% endhint %}
+
+Como a mensagem informa, nosso aplicativo está em `hello_world\lib\main.dart` . Vamos substituir todo o conteúdo gerado pelo código abaixo: 
 
 ```dart
 import 'package:flutter/widgets.dart';
@@ -22,6 +43,8 @@ void main() {
 
 
 ```
+
+O resultado final é uma tela em toda preta, com o texto `Hello, world!` centralizado.
 
 #### Entendendo nosso Hello World: 
 
