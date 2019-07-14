@@ -41,7 +41,6 @@ void main() {
   );
 }
 
-
 ```
 
 O resultado final é uma tela em toda preta, com o texto `Hello, world!` centralizado.
