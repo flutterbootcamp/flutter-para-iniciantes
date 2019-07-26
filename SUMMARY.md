@@ -18,9 +18,9 @@
 * [Stateless x Stateful](basico/alem-do.md)
 * [Ciclo de vida dos widgets](basico/ciclo-de-vida.md)
 
-## Aplicativo 1 - B-PARTY
+## Aplicativo 1 - Rock in Rio
 
-* [Rock In Rio](aplicativo-1-b-party/b-party.md)
+* [Rock In Rio](aplicativo-1-rock-in-rio/b-party.md)
 
 ## Gerenciamento de estado
 

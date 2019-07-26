@@ -12,10 +12,9 @@ Neste aplicativo, você irá aprender:
 * Importar fontes e imagens.
 * Navegação.
 
-Existem vários palcos, com diversas bandas e os mais variados horários de apresentação. Seria bacana um aplicativo onde pudessemos ter todas essas informações e ainda favoritar as atrações de nosso interesse para não perdermos a oportunidade de acompanhar nosso show favorito. Pois bem, esta é a proposta deste aplicativo. Ele possui 2 funcionalidades:
+Existem vários palcos, com diversas bandas e os mais variados horários de apresentação. Seria bacana um aplicativo onde pudessemos ter todas essas informações e ainda favoritar as atrações de nosso interesse para não perdermos a oportunidade de acompanhar nosso show favorito. Pois bem, esta é a proposta deste aplicativo:
 
 * Informações de todos os shows e ingressos
-* Favoritos/Agenda
 
 Agora que já sabemos dos requisitos, podemos começar a planejar nossa interface.
 
