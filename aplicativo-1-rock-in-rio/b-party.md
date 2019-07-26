@@ -1,5 +1,5 @@
 ---
-description: A festa inteligente
+description: Por um mundo melhor
 ---
 
 # Rock In Rio
