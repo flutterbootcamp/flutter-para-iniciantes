@@ -20,7 +20,7 @@
 
 ## Aplicativo 1 - B-PARTY
 
-* [B-PARTY](aplicativo-1-b-party/b-party.md)
+* [Rock In Rio](aplicativo-1-b-party/b-party.md)
 
 ## Gerenciamento de estado
 

@@ -20,12 +20,13 @@ Espero, verdadeiramente, com este livro, despertar o seu interesse para que o Fl
 
 ## Em progresso:
 
-* Aplicativo 1: B-PARTY: A festa inteligente.
+* Aplicativo 1: Rock in Rio.
   * Neste aplicativo, você irá aprender:
-    * Widget básicos para layout
-    * Personalização
-    * Imagens e fontes customizadas
-    * Navegação
+    * Anatomia de aplicativos em Flutter.
+    * Compor widgets para montar layouts.
+    * Criar seu próprio widget customizado.
+    * Importar fontes e imagens.
+    * Navegação.
 
 ## À fazer:
 
