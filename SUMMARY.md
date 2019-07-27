@@ -17,6 +17,7 @@
 * [Widgets](basico/widgets.md)
 * [Stateless x Stateful](basico/alem-do.md)
 * [Ciclo de vida dos widgets](basico/ciclo-de-vida.md)
+* [Anatomia de um aplicativo](basico/anatomia-de-um-aplicativo.md)
 
 ## Aplicativo 1 - Rock in Rio
 
