@@ -17,10 +17,13 @@ Existem vários palcos, com diversas bandas e os mais variados horários de apre
 * Informações de todos os shows
 * Agenda
 
-Agora que já sabemos dos requisitos, podemos começar a planejar nossa interface.
+Agora que já sabemos dos requisitos, podemos começar a planejar nossa interface:
+
+![Home](../.gitbook/assets/home.png)
+
+![Shows](../.gitbook/assets/shows.png)
+
+![Agenda](../.gitbook/assets/agenda.png)
 
 
 
-
-
-* * * 
