@@ -18,6 +18,10 @@ Assim como [React Native](https://facebook.github.io/react-native/), [Xamarin](h
 
 Espero, verdadeiramente, com este livro, despertar o seu interesse para que o Flutter esteja no seu próximo projeto.
 
+## Vídeos
+
+Todo o conteúdo deste livro também está em uma playlist no [Youtube](https://www.youtube.com/playlist?list=PLS4cqF1_X2syzBpkoSwtmKoREgnp1MhTn). 
+
 ## Em progresso:
 
 * Aplicativo 1: Rock in Rio.
