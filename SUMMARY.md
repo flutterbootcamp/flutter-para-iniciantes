@@ -31,6 +31,7 @@
 * [scoped\_model](gerenciamento-de-estado/scoped_model.md)
 * [provider](gerenciamento-de-estado/provider.md)
 * [BLoC](gerenciamento-de-estado/untitled.md)
+* [MobX](gerenciamento-de-estado/mobx.md)
 
 ## Firebase
 
