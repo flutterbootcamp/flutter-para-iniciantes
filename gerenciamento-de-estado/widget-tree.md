@@ -34,7 +34,7 @@ E como não desviar desta regra? Utilizando alguma solução de [gerenciamento d
 Este não é um tópico simples em qualquer framework. E com Flutter, não seria diferente.
 
 {% hint style="info" %}
-Flutter é uma ferramenta **não opinativa**, ou seja, ele não "opina" em como você deve fazer as coisas. Não te força a usar soluções e/ou padrões embutidos. Ele te deixa livre para escolher a solução mais adequada para o seu projeto.
+Flutter é uma ferramenta **não opinativa**, ou seja, ele não "opina" em como você deve fazer as coisas. Não te força a usar soluções e/ou padrões embutidos. Você é livre para escolher a solução mais adequada para o seu projeto.
 {% endhint %}
 
 E como já [dizia](https://www.youtube.com/watch?v=C3ms2uPUGkw) o Tio Ben: 
