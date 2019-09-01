@@ -19,9 +19,13 @@
 * [Ciclo de vida dos widgets](basico/ciclo-de-vida.md)
 * [Anatomia de um aplicativo](basico/anatomia-de-um-aplicativo.md)
 
-## Aplicativo 1 - Rock in Rio
+## WIDGETS
 
-* [Rock In Rio](aplicativo-1-rock-in-rio/b-party.md)
+* [Material](widgets/material.md)
+
+## HTTP
+
+* [Consumindo APIs](http/consumindo-apis.md)
 
 ## Gerenciamento de estado
 
@@ -33,6 +37,10 @@
 * [BLoC](gerenciamento-de-estado/untitled.md)
 * [MobX](gerenciamento-de-estado/mobx.md)
 
+## Aplicativo 1 - Rock in Rio
+
+* [Rock In Rio](aplicativo-1-rock-in-rio/rock-in-rio.md)
+
 ## Firebase
 
 * [O backend do seu aplicativo](firebase/untitled.md)
@@ -40,4 +48,8 @@
 ## Copia e Cola
 
 * [Copia e Cola](copia-e-cola/so.md)
+
+## OUTROS
+
+* [Dart no backend?](outros/dart-no-backend.md)
 

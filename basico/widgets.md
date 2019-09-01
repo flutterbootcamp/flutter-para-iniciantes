@@ -4,11 +4,19 @@ description: 'Em Flutter, (quase) tudo é um Widget.'
 
 # Widgets
 
-Todo aplicativo Flutter é um widget. Composto de outra centenas de widgets. Portanto, entende-los é mais do que a nossa obrigação. Uma coisa bacana, é que na própria documentação do Flutter, eles deixam claro que a inspiração para os widgets vieram do [React](https://pt-br.reactjs.org/). Assim como no framework do Facebook, todo aplicativo é baseado em componentes, no Flutter, todo app é baseado em widgets. 
+Todo aplicativo Flutter é um widget. Composto de outra centenas de widgets. Portanto, entende-los é mais do que a nossa obrigação. Uma coisa bacana, é que na própria documentação do Flutter, eles deixam claro que a inspiração para os widgets vieram do [React](https://pt-br.reactjs.org/). Assim como no framework do Facebook, todo aplicativo é baseado em componentes, no Flutter é baseado em widgets. 
 
 > _**"A ideia central é que você construa sua interface com widgets"**_
 
 Com esta afirmação, retirada da documentação, acredito que dá para entender, efetivamente, o que é um widget. 
+
+![](../.gitbook/assets/newicogram-2019-07-28-17_03-12.png)
+
+{% hint style="success" %}
+Pense no aplicativo como um LEGO, onde cada pequeno widget representa uma peça e ao final, várias peças compõem um brinquedo. 
+
+No Flutter, vários widgets são combinados para compor um aplicativo.
+{% endhint %}
 
 Existem apenas 2 tipos de widgets: [Stateless ](https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html)e [Stateful](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html). Iremos abordar esta diferença na próxima seção.
 

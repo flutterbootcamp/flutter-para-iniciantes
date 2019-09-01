@@ -16,5 +16,15 @@ description: >-
 
 [Serverless](https://firebase.google.com/docs/functions): Que tal enviar um e-mail quando os usuários logarem no seu aplicativo? Ou enviar uma notificação quando um novo evento? Pode ser útil diminuir o tamanho da foto que o usuário fez o upload, certo? Podemos executar todas essas tarefas com o Cloud Functions. Não é preciso ter um servidor para isso. Basta escrever as funções \(em Javascript, Typescript, Python ou Go\) que o Firebase cuida da execução para você.
 
+Vários outros serviços estão disponíveis e podem ser úteis ao seu aplicativo. Confira [aqui](https://firebase.google.com/products) todas as opções disponíveis.
+
+{% hint style="info" %}
+**AWS** \(Amazon\) e **Azure** \(Microsoft\) são outras alternativas aos Firebase. 
+{% endhint %}
+
+
+
+
+
 
 

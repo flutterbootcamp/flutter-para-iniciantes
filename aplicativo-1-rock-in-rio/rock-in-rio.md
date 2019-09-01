@@ -6,7 +6,6 @@ description: Por um mundo melhor
 
 Neste aplicativo, você irá aprender:
 
-* Anatomia de aplicativos em Flutter.
 * Compor widgets para montar layouts.
 * Criar seu próprio widget customizado.
 * Importar fontes e imagens.

@@ -32,13 +32,7 @@ Para clarificar:
 
 O ícone de like no Instagram/Facebook, é um Stateful widget, pois ao ser pressionado, ele muda de cor e ainda atualiza a quantidade de curtidas naquele post/foto.
 
-O texto com o nome do seu perfil, é um Stateless widget.
+O texto com o nome do seu perfil, é um Stateless widget, pois ele é estático \(não possui nenhuma opção de interação\).
 
 Ainda há espaço nos aprofundarmos neste assunto, mas por hora, entender esta básica diferença entre os tipos de widgets já é o suficiente. 
-
-
-
-
-
- 
 
