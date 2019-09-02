@@ -24,10 +24,6 @@
 * [Material](widgets/material.md)
 * [Cupertino](widgets/cupertino.md)
 
-## HTTP
-
-* [Consumindo APIs](http/consumindo-apis.md)
-
 ## Gerenciamento de estado
 
 * [Widget Tree](gerenciamento-de-estado/widget-tree.md)
@@ -36,7 +32,6 @@
 * [scoped\_model](gerenciamento-de-estado/scoped_model.md)
 * [provider](gerenciamento-de-estado/provider.md)
 * [BLoC](gerenciamento-de-estado/untitled.md)
-* [MobX](gerenciamento-de-estado/mobx.md)
 
 ## Aplicativo 1 - Rock in Rio
 
@@ -49,8 +44,4 @@
 ## Copia e Cola
 
 * [Copia e Cola](copia-e-cola/so.md)
-
-## OUTROS
-
-* [Dart no backend?](outros/dart-no-backend.md)
 
