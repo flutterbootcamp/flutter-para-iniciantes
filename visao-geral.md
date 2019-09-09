@@ -6,7 +6,7 @@ description: >-
 
 # Visão Geral
 
-É importante entender alguns conceitos e termos antes de cairmos de cabeça no framework. Provavelmente, quando você pesquisar sobre Flutter, encontrará a seguinte afirmação: 
+É importante entender alguns conceitos e termos antes de cairmos de cabeça no framework. Provavelmente, quando você pesquisar sobre Flutter, encontrará a seguinte afirmação:
 
 > #### "In Flutter, everything is a widget" \(No Flutter, tudo é um widget\).
 
