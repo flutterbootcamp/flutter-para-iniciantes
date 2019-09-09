@@ -55,7 +55,7 @@ class _MeuWidgetImutavelState extends State<MeuWidgetImutavel> {
 }
 ```
 
-* O uso do "\_" torna o objeto imutável;
+* O uso do "\_" torna o widget privado para o escopo da biblioteca em que ele se encontra;
 * O uso de =&gt; indica que este método executa apenas 1 função.
 
 Mas não se engane, pois a diferença não é apenas no nome dos métodos. Lembra que ao criar um objeto do tipo [State](https://api.flutter.dev/flutter/widgets/State-class.html), um [Stateful](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html) widget ganha poderes mutáveis ?! Então, é dentro dele que a mágica acontece.
