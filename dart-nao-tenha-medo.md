@@ -70,7 +70,7 @@ Map<String, String> image = {
 ```
 
 {% hint style="warning" %}
-Sobre a tipagem opicional, gostaria de reforçar o seguinte ponto:
+Sobre a tipagem opcional, gostaria de reforçar o seguinte ponto:
 {% endhint %}
 
 ```dart

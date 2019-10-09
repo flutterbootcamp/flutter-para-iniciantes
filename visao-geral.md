@@ -30,7 +30,7 @@ Este conceito é importante e iremos apronfundá-lo quando aprendermos sobre ger
 
 ## Declarative UI
 
-Este conceito merece um destaque especial, pois muda a forma como estamos acostumados a construir interfaces. Apesar de não ser um conceito novo, vem sendo cada vez mais adotado  e ganhando popularidade na comunidade, devido à facilidade que ele proporciona, não só de construir, como também em entender noss interface.
+Este conceito merece um destaque especial, pois muda a forma como estamos acostumados a construir interfaces. Apesar de não ser um conceito novo, vem sendo cada vez mais adotado  e ganhando popularidade na comunidade, devido à facilidade que ele proporciona, não só de construir, como também em entender nossa interface.
 
 Com a imagem abaixo, ficará mais fácil acompanhar a explicação:
 
