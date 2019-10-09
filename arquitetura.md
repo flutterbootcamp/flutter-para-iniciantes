@@ -54,7 +54,7 @@ A camada verde anterior, na imagem abaixo é representada pela azul.
 
 ![](.gitbook/assets/0-neejq8pwkitj8emf..png)
 
-O framework sem si, é construído sobre a Engine \(C++\) e é puramente código Dart. 
+O framework em si, é construído sobre a Engine \(C++\) e é puramente código Dart. 
 
 {% hint style="info" %}
 Podemos acessar cada uma das classes e ver como um botão ou o switch é implementado.
