@@ -23,7 +23,7 @@ Existem apenas 2 tipos de widgets: [Stateless ](https://api.flutter.dev/flutter/
 Podemos classificar os widgets em 2 grupos principais: **Layout** e **UI \(user interface\)**.
 
 {% hint style="warning" %}
-Certamente temos outros widgets que não se enquadram perfeitamente em nenhum destes grupos, porém para começar, fica mais fácil essa divisão e poder identificar quando e quais widgets utilizar para construir a interface.
+Certamente temos outros widgets que não se enquadram perfeitamente em nenhum destes grupos, mas para começar, fica fácil com essa divisão para  identificar quando e quais widgets utilizar para construir uma interface.
 {% endhint %}
 
 Widgets de **layout**, são aqueles que se preocupam apenas em posicionar outros widgets. Alguns dos principais: 

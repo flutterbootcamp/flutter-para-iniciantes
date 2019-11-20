@@ -21,6 +21,7 @@
 
 ## WIDGETS
 
+* [Layout](widgets/layout.md)
 * [Material](widgets/material.md)
 * [Cupertino](widgets/cupertino.md)
 
@@ -30,7 +31,6 @@
 * [setState\(\)](gerenciamento-de-estado/setstate.md)
 * [InheritedWidget](gerenciamento-de-estado/inheritedwidget.md)
 * [scoped\_model](gerenciamento-de-estado/scoped_model.md)
-* [provider](gerenciamento-de-estado/provider.md)
 * [BLoC](gerenciamento-de-estado/bloc.md)
 
 ## Aplicativo 1 - Rock in Rio
