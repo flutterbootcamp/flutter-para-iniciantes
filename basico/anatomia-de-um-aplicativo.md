@@ -50,13 +50,11 @@ A pasta .idea e o arquivo \*.iml são utilizados apenas pela IDE IntelliJ.
 
 O método **main\(\)** é o ponto de partida para todo aplicativo Flutter. O seu retorno é sempre _void_.
 
-{% code-tabs %}
-{% code-tabs-item title="main.dart" %}
+{% code title="main.dart" %}
 ```dart
 void main() => runApp(MeuAplicativo());
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 A função `runApp()` recebe um widget como parâmetro, ou seja, todo nosso aplicativo também é um widget. 
 

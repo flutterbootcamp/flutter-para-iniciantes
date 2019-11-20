@@ -47,7 +47,7 @@ class ContadorModel extends Model {
 
   void incrementa() {
     // incrementa o contador
-    _counter++;
+    _contador++;
     // notifica os widgets após o contador ser incrementado
     notifyListeners();
   }

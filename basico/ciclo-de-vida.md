@@ -80,7 +80,7 @@ Abordaremos apenas os métodos nas caixas em verde escuro. As caixas em verde cl
 
 [setState](https://api.flutter.dev/flutter/widgets/State/setState.html): Responsável por notificar nosso widget que o estado interno foi alterado. Por exemplo, ao concluir uma requisição HTTP, queremos exibir estas informações na tela. Para isso, preenchemos nossa tela com as informações recebidas e invocamos a função [setState\(\)](https://api.flutter.dev/flutter/widgets/State/setState.html). 
 
-[didUpdateConfig](https://api.flutter.dev/flutter/widgets/State/didUpdateWidget.html): Sempre que o seu widget sofrer alterações, este método é chamado e executado antes do [build\(\)](https://api.flutter.dev/flutter/widgets/State/build.html). Ou seja, sempre que chamar o [setState\(\)](https://api.flutter.dev/flutter/widgets/State/setState.html), este método é executado. Pode ser útil ao lidar com animações e/ou quando precisar ter acesso ao estado antigo do widget.
+[didUpdateConfig](https://api.flutter.dev/flutter/widgets/State/didUpdateWidget.html): Sempre que o seu widget sofrer alterações, este método é chamado e executado antes do [build\(\)](https://api.flutter.dev/flutter/widgets/State/build.html). Ou seja, sempre que chamar chamar o [setState\(\)](https://api.flutter.dev/flutter/widgets/State/setState.html), este método é executado. Pode ser útil ao lidar com animações e/ou quando precisar ter acesso ao estado antigo do widget.
 
 _O nome deste método mudou para_ **didUpdateWidget** _e o diagrama oficial ainda está desatualizado_
 
