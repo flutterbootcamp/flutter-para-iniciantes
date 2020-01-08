@@ -8,7 +8,7 @@ Este livro foi idealizado para servir como guia à qualquer pessoa interessada e
 
 Ele é free, open-source e estará sempre aberto à críticas e sugestões.     
 
-[https://github.com/flutter-para-iniciantes/ebook](https://github.com/flutter-para-iniciantes/ebook)   
+https://github.com/rubensdemelo/flutter-para-iniciantes   
 
 ## Introdução
 
