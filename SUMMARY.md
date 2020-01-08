@@ -21,7 +21,7 @@
 
 ## WIDGETS
 
-* [Layout e Interface](widgets/layout-e-interface.md)
+* [Layout](widgets/layout.md)
 * [Material](widgets/material.md)
 * [Cupertino](widgets/cupertino.md)
 

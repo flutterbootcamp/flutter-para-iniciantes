@@ -2,7 +2,7 @@
 description: Entendo os principais widgets que te ajudarão na montagem da sua interface.
 ---
 
-# Layout e Interface
+# Layout
 
 Antes de constrruirmos uma tela, om botões, inputs, imagens, precisamos definir como será o seu layout, como por exemplo, se os itens serão posicionados na vertical ou horizontal. Na parte superior, teremos um slide com fotos fixo e abaixo uma lista de itens ? São definições estruturais básicas e que devem ser feitas antes da customização \(não se começa construindo uma casa, sem antes ter a planta em mãos\).
 
