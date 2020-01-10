@@ -47,7 +47,7 @@ Agora já sabemos sobre o padrão e iremos descobrir como implementá-los no nos
 
 Falaremos mais tarde, antes, precisamos implementar nosso BLoC.
 
-```text
+```dart
 class MeuBloc {
   int _total = 0;
   int get total => _total;
@@ -80,7 +80,7 @@ Portanto, já podemos utilizá-lo para construi nossa interface. Chegou a hora d
 
 Este widget fica "ouvindo" uma stream e sempre que há um novo evento, ele é reconstruído \(o método **builder** é executado novamente\).
 
-```text
+```dart
 StreamBuilder<int>(
   stream: minhaStream, //stream do tipo int
   builder: (BuildContext context, AsyncSnapshot<int> snapshot) {
@@ -103,7 +103,7 @@ Vamos analisar:
 
 Um exemplo completo do aplicativo Contador utilizando o padrão BLoC:
 
-```text
+```dart
 import 'package:flutter/material.dart';
 import 'dart:async';
 
