@@ -28,6 +28,7 @@
 ## Gerenciamento de estado
 
 * [Widget Tree](gerenciamento-de-estado/widget-tree.md)
+* [Estado: Local e Global](gerenciamento-de-estado/estado-local-e-global.md)
 * [setState\(\)](gerenciamento-de-estado/setstate.md)
 * [InheritedWidget](gerenciamento-de-estado/inheritedwidget.md)
 * [scoped\_model](gerenciamento-de-estado/scoped_model.md)
