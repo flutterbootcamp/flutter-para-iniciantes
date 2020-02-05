@@ -18,8 +18,7 @@ class MeuEmail extends InheritedWidget {
     Key key,
     @required this.provedor,
     @required Widget child,
-  }) : assert(color != null),
-       assert(child != null),
+  }) : assert(child != null),
        super(key: key, child: child);
 
   final String provedor;
