@@ -60,7 +60,10 @@ class MeuBloc {
     _total++;
     _blocController.sink.add(total);
   }
-
+  
+  fecharStream() {
+    _blocController.close();
+  }
 }
 ```
 
@@ -69,6 +72,7 @@ class MeuBloc {
 3. Declaramos nossa **StreamController;**
 4. Criamos um método **get** para acessar a stream da nossa StreamController;
 5. Criamos o méotodo **`incrementar()`** para incrementar o valor de `total` e com o método `add()` da propriedade `sink`, adicionamos o valor já incrementado à nossa StreamController;
+6. Criamos o méotodo **`fecharStream()`** para fechar nosso `_blocController`.
 
 {% hint style="success" %}
 Já temos nosso componente lógico pronto.
@@ -100,6 +104,7 @@ Vamos analisar:
 3. Implementamos a função **builder**. Ela recebe como parâmetro o [BuildContext](https://api.flutter.dev/flutter/widgets/BuildContext-class.html) e um [AsyncSnapshot](https://api.flutter.dev/flutter/widgets/AsyncSnapshot-class.html) \(não se preocupe com isso agora\).
 4. Caso nossa stream contenha algum erro, retornamos um texto informativo;
 5. Se não houver nenhum problemas, exibimos o dado do snapshot \(.data\) que é o último valor recebido pela stream;
+6. Para que nosso `_blocController` seja encerrado de maneira correta, precisamos sobrescrever o método `dispose` (_HomePageState);
 
 Um exemplo completo do aplicativo Contador utilizando o padrão BLoC:
 
@@ -160,6 +165,11 @@ class _HomePageState extends State<HomePage> {
         child: Icon(Icons.add),
       ),
     );
+  }
+  @override
+  void dispose() {
+    bloc.fecharStream
+    super.dispose();
   }
 }
 
