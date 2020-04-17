@@ -74,6 +74,10 @@ class MeuBloc {
 5. Criamos o méotodo **`incrementar()`** para incrementar o valor de `total` e com o método `add()` da propriedade `sink`, adicionamos o valor já incrementado à nossa StreamController;
 6. Criamos o méotodo **`fecharStream()`** para fechar nosso `_blocController`.
 
+{% hint style="warning" %}
+O não fechamento **StreamController** implica na utilização de memória de forma desnecessária, isso pode ocasionar perda de desempenho e falhas na aplicação.
+{% endhint %}
+
 {% hint style="success" %}
 Já temos nosso componente lógico pronto.
 {% endhint %}
