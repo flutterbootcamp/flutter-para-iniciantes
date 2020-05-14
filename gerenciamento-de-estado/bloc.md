@@ -29,7 +29,7 @@ Com ela, temos acesso às propriedades [sink](https://api.dart.dev/stable/2.4.1/
 Com estes três componentes temos tudo o que é necessário para implementar o padrão BLoC.
 
 {% hint style="info" %}
-Eventos são quaisquer ações que alterão o estado da nossa aplicação. Seja a chamda para uma API, o usuário fazendo login e até mesmo o incremento de um contador.
+Eventos são quaisquer ações que alteram o estado da nossa aplicação. Seja a chamda para uma API, o usuário fazendo login e até mesmo o incremento de um contador.
 {% endhint %}
 
 1. Eventos são emitidos para o nosso BLoC, via sink;
@@ -82,7 +82,7 @@ O não fechamento **StreamController** implica na utilização de memória de fo
 Já temos nosso componente lógico pronto.
 {% endhint %}
 
-Portanto, já podemos utilizá-lo para construi nossa interface. Chegou a hora de conhecer melhor o widget que irá ouvir a **stream** da nossa StreamController e "reagir" à qualquer novo evento emitido pela stream. 
+Portanto, já podemos utilizá-lo para construir nossa interface. Chegou a hora de conhecer melhor o widget que irá ouvir a **stream** da nossa StreamController e "reagir" à qualquer novo evento emitido pela stream. 
 
 #### StreamBuilder 
 
