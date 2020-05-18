@@ -33,7 +33,7 @@ Pasta que contém os arquivos de testes do aplicativo.
 Este arquivo contém várias informações do aplicativo, como nome, versão, descrição, pacotes/dependências. Também contém o caminho para arquivos estáticos, como imagens e fontes.
 
 {% hint style="danger" %}
-Neste tipo de arquivo, YAML, a identação é extremamente importante. Utiliza-se 2 espaçoes em branco.
+Neste tipo de arquivo, YAML, a indentação é extremamente importante. Utiliza-se 2 espaços em branco.
 {% endhint %}
 {% endtab %}
 

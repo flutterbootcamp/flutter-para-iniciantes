@@ -18,7 +18,6 @@ Quandro criamos um Stateless widget, o Flutter executa o seu construtor e sem se
 
 ```dart
 class MeuWidgetImutavel extends StatelessWidget {
-  const MeuWidgetImutavel({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +40,6 @@ Inicialmente, parece ser tão simples quando o [Stateless](https://api.flutter.d
 
 ```dart
 class MeuWidgetImutavel extends StatefulWidget {
-  const MeuWidgetImutavel({Key key}) : super(key: key);
 
   @override
   _MeuWidgetImutavelState createState() => _MeuWidgetImutavelState();
@@ -89,4 +87,6 @@ Como vimos, cada um dos métodos acima são executados em momentos diferentes. C
 {% hint style="success" %}
 ### Ficará mais simples compreender a real função de cada um destes métodos, o que fazer em cada um deles, quando utilizar um ou outro à medida em que formos progredindo no aprendizado e tivermos novas necessidades. Não se preocupe :\)
 {% endhint %}
+
+
 

@@ -99,6 +99,8 @@ class _WidgetComEstadoState extends State<WidgetComEstado> {
 3. Em cada uma delas, alteramos a informação e chamamos a função `setState`. 
 4. Assim, quando as funções `aumentar()` e `diminuir()` forem chamadas, a informação tamanho será atualizada e com a execução da função `setState`, o nosso widget será reconstruído, já contemplando o novo valor de `_tamanho`. 
 
+{% embed url="https://codepen.io/rubensdemelo/pen/MWazGOq" %}
+
 Veja o código acima em ação no [DartPad](https://dartpad.dev/7cdef4bf893153604b7fb18a6c9a6142).
 
 Ainda há espaço nos aprofundarmos neste assunto, mas por hora, entender esta básica diferença entre os tipos de widgets já é o suficiente. 
