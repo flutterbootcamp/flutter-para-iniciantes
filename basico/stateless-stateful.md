@@ -65,14 +65,41 @@ class _WidgetComEstadoState extends State<WidgetComEstado> {
 1. Criamos um widget extendendo StatefulWidget.
 2. Nosso widget, através da função `createState()`, retorna o widget **WidgetComEstadoState**_._ \(lembrando que o "\_" faz com que o objeto seja privado\).
 3. Como o widget **WidgetComEstadoState** extende de um objeto do tipo [State](https://api.flutter.dev/flutter/widgets/State-class.html), conseguimos armazenar informações, que podem ser lidas e atualizadas. E com este objeto, temos acesso ao método [setState\(\)](https://api.flutter.dev/flutter/widgets/State/setState.html), que quando é executado, faz com que o nosso widget seja reconstruído. Ou seja, ao atualizarmos uma informação, executarmos o método setState, o nosso widget é reconstruído com a informação atualizada.  
+4. O widget **WidgetComEstadoState** retorna um [FlutterLogo](https://api.flutter.dev/flutter/material/FlutterLogo-class.html) widget.
 
-Para clarificar:
+Agora que já sabemos a teoria, vamos para a prática e implementar os benefícios que o objeto [State](https://api.flutter.dev/flutter/widgets/State-class.html) proporciona ao widget.
 
-O ícone de like no Instagram/Facebook, é um Stateful widget, pois ao ser pressionado, ele muda de cor e ainda atualiza a quantidade de curtidas naquele post/foto.
+```dart
+class _WidgetComEstadoState extends State<WidgetComEstado> {
+  var _tamanho = 32.0;
 
-O texto com o nome do seu perfil, é um Stateless widget, pois ele é estático \(não possui nenhuma opção de interação\).
+  void aumentar() {
+    setState(() {
+      _tamanho = _tamanho + 16;
+    });
+  }
 
+  void diminuir() {
+    setState(() {
+      _tamanho = _tamanho - 16;
+    });
+  }
 
+  @override
+  Widget build(BuildContext context) {
+    return FlutterLogo(
+      size: _tamanho,
+    );
+  }
+}
+```
+
+1. Adicionamento a informação `_tamanho` ao nosso widget.
+2. Criamos as funções `aumentar()` e `diminuir()`.
+3. Em cada uma delas, alteramos a informação e chamamos a função `setState`. 
+4. Assim, quando as funções `aumentar()` e `diminuir()` forem chamadas, a informação tamanho será atualizada e com a execução da função `setState`, o nosso widget será reconstruído, já contemplando o novo valor de `_tamanho`. 
+
+Veja o código acima em ação no [DartPad](https://dartpad.dev/7cdef4bf893153604b7fb18a6c9a6142).
 
 Ainda há espaço nos aprofundarmos neste assunto, mas por hora, entender esta básica diferença entre os tipos de widgets já é o suficiente. 
 
