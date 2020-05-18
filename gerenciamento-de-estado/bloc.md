@@ -4,7 +4,7 @@ description: Todo o poder das Streams  à seu dispor.
 
 # BLoC
 
-**B**usiness **L**ogic **o**f **C**omponent \(ou BLoC para os íntimos\) é um padrão apresentado pelo Google na [DartConf 2018](https://www.youtube.com/watch?v=PLHln7wHgPE), sobre o compartilhamento de código entre o Flutter e o [AngularDart](https://angulardart.dev). 
+**B**usiness **L**ogic **o**f **C**omponent \(ou BLoC para os íntimos\) é um padrão apresentado pelo Google na [DartConf 2018](https://www.youtube.com/watch?v=PLHln7wHgPE), sobre o compartilhamento de código entre o Flutter e o [AngularDart](https://angulardart.dev).
 
 Usando Flutter para a versão mobile e AngularDart para a versão web, como podemos gerenciar o estado do aplicativo, com menos esforço possível? Utilizando uma solução que esteja disponível para as duas plataformas, que neste caso são [Streams](https://dart.dev/tutorials/language/streams)
 
@@ -12,7 +12,7 @@ Usando Flutter para a versão mobile e AngularDart para a versão web, como pode
 Stream é uma sequência de **eventos** assíncronos.
 {% endhint %}
 
-As opções apresentadas anteriormente utilizam recursos internos do Flutter e que não podemos utilizar fora do framework. 
+As opções apresentadas anteriormente utilizam recursos internos do Flutter e que não podemos utilizar fora do framework.
 
 Streams são um recurso nativo da linguagem Dart, ou seja, podemos utilizá-las independente da plataforma. Sendo assim, nossa solução de gerenciamento de estado é puramente código Dart, podendo ser utilizada com Flutter e AngularDart.
 
@@ -22,7 +22,7 @@ Com a imagem abaixo, ficará mais fácil de entender:
 
 ![](../.gitbook/assets/untitled-diagram.jpg)
 
-O coração de um BLoC é a [StreamController](https://api.dart.dev/stable/2.4.1/dart-async/StreamController-class.html). 
+O coração de um BLoC é a [StreamController](https://api.dart.dev/stable/2.4.1/dart-async/StreamController-class.html).
 
 Com ela, temos acesso às propriedades [sink](https://api.dart.dev/stable/2.4.1/dart-async/StreamController/sink.html) \(entrada\) e a [stream](https://api.dart.dev/stable/2.4.1/dart-async/StreamController/stream.html) \(saída\).
 
@@ -51,16 +51,16 @@ Falaremos mais tarde, antes, precisamos implementar nosso BLoC.
 class MeuBloc {
   int _total = 0;
   int get total => _total;
-  
+
   final _blocController = StreamController<int>();
-  
+
   Stream<int> get minhaStream => _blocController.stream;
 
   void incrementar() {
     _total++;
     _blocController.sink.add(total);
   }
-  
+
   fecharStream() {
     _blocController.close();
   }
@@ -82,9 +82,9 @@ O não fechamento **StreamController** implica na utilização de memória de fo
 Já temos nosso componente lógico pronto.
 {% endhint %}
 
-Portanto, já podemos utilizá-lo para construir nossa interface. Chegou a hora de conhecer melhor o widget que irá ouvir a **stream** da nossa StreamController e "reagir" à qualquer novo evento emitido pela stream. 
+Portanto, já podemos utilizá-lo para construir nossa interface. Chegou a hora de conhecer melhor o widget que irá ouvir a **stream** da nossa StreamController e "reagir" à qualquer novo evento emitido pela stream.
 
-#### StreamBuilder 
+### StreamBuilder
 
 Este widget fica "ouvindo" uma stream e sempre que há um novo evento, ele é reconstruído \(o método **builder** é executado novamente\).
 
@@ -108,7 +108,7 @@ Vamos analisar:
 3. Implementamos a função **builder**. Ela recebe como parâmetro o [BuildContext](https://api.flutter.dev/flutter/widgets/BuildContext-class.html) e um [AsyncSnapshot](https://api.flutter.dev/flutter/widgets/AsyncSnapshot-class.html) \(não se preocupe com isso agora\).
 4. Caso nossa stream contenha algum erro, retornamos um texto informativo;
 5. Se não houver nenhum problemas, exibimos o dado do snapshot \(.data\) que é o último valor recebido pela stream;
-6. Para que nosso `_blocController` seja encerrado de maneira correta, precisamos sobrescrever o método `dispose` (_HomePageState);
+6. Para que nosso `_blocController` seja encerrado de maneira correta, precisamos sobrescrever o método `dispose` \(\_HomePageState\);
 
 Um exemplo completo do aplicativo Contador utilizando o padrão BLoC:
 
@@ -201,6 +201,4 @@ class MeuBloc {
 ```
 
 Brinque com ele também no [DartPad](https://dartpad.dev/b6409e10de32b280b8938aa75364fa7b).
-
-
 

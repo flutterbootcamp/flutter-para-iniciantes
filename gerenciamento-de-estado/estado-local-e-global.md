@@ -20,7 +20,7 @@ Vamos descobrir como implementá-los em Flutter.
 
 Começaremos pelo estado **local**, por ser o mais simples. Utilizando o [Stateful](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html) widget.
 
-Em seguida, abordaremos algumas opções para gerenciar o estado **global**, com 3 opções diferentes: com o [InheritedWidget](https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html), com o package [scoped\_model](https://pub.dev/packages/scoped_model) e também o padrão [BLoC](https://www.didierboelens.com/2018/08/reactive-programming---streams---bloc/). 
+Em seguida, abordaremos algumas opções para gerenciar o estado **global**, com 3 opções diferentes: com o [InheritedWidget](https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html), com os packages [scoped\_model](https://pub.dev/packages/scoped_model) , [provider](https://pub.dev/packages/provider) e também o padrão [BLoC](https://www.didierboelens.com/2018/08/reactive-programming---streams---bloc/).  
 
 
 
