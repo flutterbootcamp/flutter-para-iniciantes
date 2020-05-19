@@ -62,8 +62,6 @@ class MeuMaterialApp extends StatelessWidget {
 
 {% embed url="https://codepen.io/rubensdemelo/pen/yLYGyKE" %}
 
-
-
 Neste [vídeo](https://www.youtube.com/watch?v=DL0Ix1lnC4w), há uma demonstração de como utilizar os widgets da biblioteca [Material](https://api.flutter.dev/flutter/material/material-library.html) para construir um aplicativo com pouco mais de 100 linhas de código.
 
 {% hint style="info" %}
