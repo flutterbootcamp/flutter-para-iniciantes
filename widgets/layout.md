@@ -85,7 +85,7 @@ Agora, é só adicionar este widget à nossa lista, para criar cada item:
 
 ```dart
 ListView(
-  children: <Widget>[
+  children: [
     ListTile(
       title: Text('Flutter'),
       subtitle: Text('Tudo é um widget'),
@@ -112,13 +112,37 @@ ListView(
 
 {% embed url="https://codepen.io/rubensdemelo/pen/QWjJBJG" %}
 
-
-
 Outras vezes, precisaremos empilhar um widget sobre o outro:
 
 ![](../.gitbook/assets/flutter-layout-3.png)
 
 Perceba que o texto está posicionado "acima" da imagem. O widget para termos esta pilha de widget é o [Stack](https://api.flutter.dev/flutter/widgets/Stack-class.htmlhttps://api.flutter.dev/flutter/widgets/Stack-class.html).
+
+```dart
+Stack(
+  children: [
+    Container(
+      width: 250,
+      height: 250,
+      color: Colors.blue,
+    ),
+    Container(
+      width: 200,
+      height: 200,
+      color: Colors.red,
+    ),
+    Container(
+      width: 150,
+      height: 150,
+      color: Colors.yellow,
+    )
+  ],
+)
+```
+
+![Os widgets do tipo Container est&#xE3;o &quot;empilhados&quot;](../.gitbook/assets/stack.png)
+
+{% embed url="https://codepen.io/rubensdemelo/pen/YzyRjom" %}
 
 Existem vários outros wigets que são utilizados para montar layouts. Para se aprofundar, recomendo que visite a seção [Layout](https://flutter.dev/docs/development/ui/widgets/layout) do catálogo de widgets.
 

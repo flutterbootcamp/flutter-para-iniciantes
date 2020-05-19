@@ -14,10 +14,11 @@
 
 ## Básico do básico <a id="basico"></a>
 
+* [Anatomia de um aplicativo](basico/anatomia-de-um-aplicativo.md)
 * [Widgets](basico/widgets.md)
 * [Stateless x Stateful](basico/stateless-stateful.md)
 * [Ciclo de vida dos widgets](basico/ciclo-de-vida.md)
-* [Anatomia de um aplicativo](basico/anatomia-de-um-aplicativo.md)
+* [Navegação](basico/navegacao.md)
 
 ## WIDGETS
 

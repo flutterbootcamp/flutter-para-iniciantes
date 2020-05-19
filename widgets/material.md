@@ -18,6 +18,52 @@ Navegando pelo catálogo, é possível identificar o que cada widget representa,
 
 [Drawer](https://api.flutter.dev/flutter/material/Drawer-class.html): Menu lateral, que se abre após clicarmos em um ícone na [AppBar](https://api.flutter.dev/flutter/material/AppBar-class.html). Ao adicionarmos um [Drawer](https://api.flutter.dev/flutter/material/Drawer-class.html) ao [Scaffold](https://api.flutter.dev/flutter/material/Scaffold-class.html) e não adicionarmos uma [AppBar](https://api.flutter.dev/flutter/material/AppBar-class.html), o ícone para abrir o [Drawer](https://api.flutter.dev/flutter/material/Drawer-class.html) não é exibido.
 
+Veja o código de um aplicativo combinando todos estes widgets:
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() => runApp(MeuMaterialApp());
+
+class MeuMaterialApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('App Bar'),
+        ),
+        drawer: Drawer(),
+        body: Center(
+          child: Container(
+            child: Text('Hello World'),
+          ),
+        ),
+        bottomNavigationBar: BottomNavigationBar(
+          items: [
+            BottomNavigationBarItem(
+              icon: Icon(Icons.home),
+              title: Text('Home'),
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.settings),
+              title: Text('Settings'),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+```
+
+![Aplicativo gerado pelo c&#xF3;digo acima](../.gitbook/assets/simulator-screen-shot-iphone-5s-2020-05-19-at-11.56.17.png)
+
+{% embed url="https://codepen.io/rubensdemelo/pen/yLYGyKE" %}
+
+
+
 Neste [vídeo](https://www.youtube.com/watch?v=DL0Ix1lnC4w), há uma demonstração de como utilizar os widgets da biblioteca [Material](https://api.flutter.dev/flutter/material/material-library.html) para construir um aplicativo com pouco mais de 100 linhas de código.
 
 {% hint style="info" %}
