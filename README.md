@@ -34,10 +34,7 @@ Todo o conteúdo deste livro também está em uma playlist no [Youtube](https://
 
 ## À fazer:
 
-* [ ] Navegação
-* [ ] Gerenciamento de estado
 * [ ] Animações
-* [ ] Firebase
 * [ ] Testes
 * [ ] Dart Avançado
 
@@ -52,6 +49,10 @@ Todo o conteúdo deste livro também está em uma playlist no [Youtube](https://
 * [x] Widgets
 * [x] Stateless x Stateful
 * [x] Ciclo de vida dos widgets
+* [x] Navegação
+* [x] Layout / Material / Cupertino
+* [x] Firebase
+* [x] Gerenciamento de estado
 
 
 
