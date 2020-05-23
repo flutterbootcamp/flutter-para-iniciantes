@@ -7,7 +7,7 @@ description: Soluções comuns para todo aplicativo
 **Novo projeto:** 
 
 ```dart
-flutter create --org com.br --description "A leitura engrandece a alma" books
+flutter create --org br.com --description "A leitura engrandece a alma" books
 ```
 
 **AppBar transparente:**
