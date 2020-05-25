@@ -21,10 +21,6 @@ In order to run your application, type:
 Your application code is in hello_world\lib\main.dart.
 ```
 
-{% hint style="success" %}
-No VS Code, acesse a pasta **hello\_world** e digite o comando "code ." \(assim o VS code será aberto imediatamente
-{% endhint %}
-
 Como a mensagem informa, nosso aplicativo está em `hello_world\lib\main.dart` . Vamos substituir todo o conteúdo gerado pelo código abaixo: 
 
 ```dart
@@ -40,7 +36,6 @@ void main() {
     ),
   );
 }
-
 ```
 
 O resultado final é uma tela em toda preta, com o texto `Hello, world!` centralizado.

@@ -54,9 +54,9 @@ class _MeuWidgetImutavelState extends State<MeuWidgetImutavel> {
 ```
 
 * O uso do "\_" torna o widget privado para o escopo da biblioteca em que ele se encontra;
-* O uso de =&gt; indica que este método executa apenas 1 função.
+* O uso de "=&gt;" indica que este método executa apenas 1 função.
 
-Mas não se engane, pois a diferença não é apenas no nome dos métodos. Lembra que ao criar um objeto do tipo [State](https://api.flutter.dev/flutter/widgets/State-class.html), um [Stateful](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html) widget ganha poderes mutáveis?! Então, é dentro dele que a mágica acontece.
+Mas não se engane, pois a diferença não é apenas no nome dos métodos. Lembre-se que ao criar um objeto do tipo [State](https://api.flutter.dev/flutter/widgets/State-class.html), um [Stateful](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html) widget ganha poderes mutáveis?! Então, é dentro dele que a mágica acontece.
 
 Nosso `MeuWidgetImutavel` ao ser construído pelo framework, executa o método `createState()`  \(linha 5\) e este por sua vez, executa apenas 1 função, que é instanciar  `_MeuWidgetImutavelState`. Ele é um filho de [State](https://api.flutter.dev/flutter/widgets/State-class.html), logo, herda algumas características e comportamentos \(linha 8\).
 
@@ -70,7 +70,7 @@ Pode parecer complicado, porém é mais simples do que você imagina. Todo este 
 Abordaremos apenas os métodos nas caixas em verde escuro. As caixas em verde claro tratam de estados de um [State](https://api.flutter.dev/flutter/widgets/State-class.html). Não é o nosso foco **neste** momento. Apenas entender o ciclo de vida dele já é suficiente. 
 {% endhint %}
 
-[initState](https://api.flutter.dev/flutter/widgets/State/initState.html): Chamado **apenas 1 única vez.** Quando o widget é **inserido** na widget tree. 
+[initState](https://api.flutter.dev/flutter/widgets/State/initState.html): Chamado **apenas 1 única vez**, na criação no widget**.** Quando o widget é **inserido** na _widget tree_.
 
 [build](https://api.flutter.dev/flutter/widgets/State/build.html): Chamado em diferentes situações. Sempre que o widget precisar ser reconstruído ou após o [initState\(\)](https://api.flutter.dev/flutter/widgets/State/initState.html) ou após a função[ setState\(\)](https://api.flutter.dev/flutter/widgets/State/setState.html) e até mesmo quando o widget for [removido](https://api.flutter.dev/flutter/widgets/State/deactivate.html) da widget tree para ser inserido em outro ponto \(isto ficará mais claro quando construirmos nosso primeiro app\).
 
@@ -80,7 +80,9 @@ Abordaremos apenas os métodos nas caixas em verde escuro. As caixas em verde cl
 
 [didUpdateConfig](https://api.flutter.dev/flutter/widgets/State/didUpdateWidget.html): Sempre que o seu widget sofrer alterações, este método é chamado e executado antes do [build\(\)](https://api.flutter.dev/flutter/widgets/State/build.html). Ou seja, sempre que chamar chamar o [setState\(\)](https://api.flutter.dev/flutter/widgets/State/setState.html), este método é executado. Pode ser útil ao lidar com animações e/ou quando precisar ter acesso ao estado antigo do widget.
 
-_O nome deste método mudou para_ **didUpdateWidget** _e o diagrama oficial ainda está desatualizado_
+{% hint style="danger" %}
+_O nome deste método mudou para_ **didUpdateWidget** _e o diagrama oficial ainda está desatualizado._
+{% endhint %}
 
 Como vimos, cada um dos métodos acima são executados em momentos diferentes. Cada um deles possui responsabilidades e comportamentos diferentes, logo, devemos utilizá-los da maneira correta.  
 
