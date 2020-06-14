@@ -4,7 +4,7 @@ description: Entendo os principais widgets que te ajudarão na montagem da sua i
 
 # Layout
 
-Antes de constrruirmos uma tela, om botões, inputs, imagens, precisamos definir como será o seu layout, como por exemplo, se os itens serão posicionados na vertical ou horizontal. Na parte superior, teremos um slide com fotos fixo e abaixo uma lista de itens ? São definições estruturais básicas e que devem ser feitas antes da customização \(não se começa construindo uma casa, sem antes ter a planta em mãos\).
+Antes de constrruirmos uma tela, com botões, inputs, imagens, precisamos definir como será o seu layout, como por exemplo, se os itens serão posicionados na vertical ou horizontal. Na parte superior, teremos um slide com fotos fixo e abaixo uma lista de itens ? São definições estruturais básicas e que devem ser feitas antes da customização \(não se começa construindo uma casa, sem antes ter a planta em mãos\).
 
 Com Flutter é a mesma coisa: Definimos o layout da nossa tela e então vamos adicionando widgets de interface.
 
