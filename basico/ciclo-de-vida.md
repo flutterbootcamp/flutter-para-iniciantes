@@ -12,7 +12,7 @@ Anteriormente vimos os 2 tipos de widgets e agora vamos entende o ciclo de vida 
 
 Por ser mais simples e não possui estado, não dá trabalho nenhum ao framework. Apenas é construído e pronto, permanece imutável. 
 
-Quandro criamos um Stateless widget, o Flutter executa o seu construtor e em seguida o método [build\(\)](https://api.flutter.dev/flutter/widgets/StatelessWidget/build.html). 
+Quando criamos um Stateless widget, o Flutter executa o seu construtor e em seguida o método [build\(\)](https://api.flutter.dev/flutter/widgets/StatelessWidget/build.html). 
 
 ![Ciclo de vida de um Stateless widget](../.gitbook/assets/stateless.png)
 
