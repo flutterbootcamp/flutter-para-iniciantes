@@ -15,7 +15,7 @@ setState(() {
 });
 ```
 
-Ao chamar o método `setState()`, nosso widget será recontruído já com o novo valor da variável `contador` tendo sido incrementado.
+Ao chamar o método `setState()`, nosso widget será reconstruído já com o novo valor da variável `contador` tendo sido incrementado.
 
 Não tem segredo nenhum aqui, seja incrementando uma variável, fazendo uma requisição à uma API ou qualquer outro evento que altere o estado do nosso widget basta invocar o método `setState()` para que ele seja reconstruído para representar o seu novo estado.
 
