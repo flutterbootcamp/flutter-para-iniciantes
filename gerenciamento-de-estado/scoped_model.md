@@ -17,7 +17,7 @@ Nossa classe com o\(s\) dado\(s\) que queremos compartilhar deve estender a clas
 ```dart
 void main() {
   runApp(MyApp(
-    model: ContadorModel(),
+    modelo: ContadorModel(),
   ));
 }
 
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
     // Ele irá prover ContadorModel para todos os widgetS filhos quando quando 
     // utilizarem o widget ScopedModelDescendant.
     return ScopedModel<ContadorModel>(
-      model: model,
+      model: modelo,
       child: MaterialApp(
         title: 'Scoped Model Demo',
         home: ContadorHome('Scoped Model Demo'),
