@@ -35,6 +35,11 @@
 * [scoped\_model](gerenciamento-de-estado/scoped_model.md)
 * [BLoC](gerenciamento-de-estado/bloc.md)
 
+## Animaçoes
+
+* [Introdução](animacoes/introducao.md)
+* [Implícitas](animacoes/implicitas.md)
+
 ## Aplicativo 1 - Rock in Rio
 
 * [Rock In Rio](aplicativo-1-rock-in-rio/rock-in-rio.md)
@@ -42,6 +47,10 @@
 ## Firebase
 
 * [O backend do seu aplicativo](firebase/firebase.md)
+
+## AWS Amplify
+
+* [O framework da Amazon](aws-amplify/o-framework-da-amazon.md)
 
 ## Copia e Cola
 

@@ -18,10 +18,6 @@ description: >-
 
 Vários outros serviços estão disponíveis e podem ser úteis ao seu aplicativo. Confira [aqui](https://firebase.google.com/products) todas as opções disponíveis.
 
-{% hint style="info" %}
-**AWS** \(Amazon\) e **Azure** \(Microsoft\) são outras alternativas aos Firebase. 
-{% endhint %}
-
 
 
 

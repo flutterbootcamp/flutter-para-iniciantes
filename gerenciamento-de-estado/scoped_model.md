@@ -100,7 +100,7 @@ class ContadorHome extends StatelessWidget {
 Como podemos perceber, o **scoped\_model** possibilita que qualquer widget filho de que **ScopedModel** acesse os atributos e métodos do **ContadorModel**, através do widget **ScopedModelDescendant**.
 
 {% hint style="info" %}
-Sempre que o método **notifyListeners\(\)** for chamado, ele irá atualizar **TODOS** os widgets **ScopedModelDescendant** que forem filhos de **ScopedModel&lt;ContadorModel&gt; \(**a função  **builder** será executada novamente\).
+Sempre que o método **notifyListeners\(\)** for chamado, ele irá atualizar **TODOS** os widgets **ScopedModelDescendant** que forem filhos de **ScopedModel&lt;ContadorModel&gt; \(**a função **builder** será executada novamente\).
 {% endhint %}
 
 Devido ao fato de podermos vincular apenas 1 classe ao widget **ScopedModel**, em aplicativos com mais classes que compartilham dados, não é recomendado o uso do scoped\_model pois nosso estado pode ser alterado mais de 1 classe. Para situações assim, considere utilizar alguma das próximas opções deste livro.

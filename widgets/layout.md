@@ -17,23 +17,23 @@ Podemos concluir que:
 * Os widgets devem ser exibidos horizontalmente;
 * O ícone e o texto devem ser exibidos verticalmente.
 
-Sendo um pouco mais _flutterista_: 
+Sendo um pouco mais _flutterista_:
 
 * Deve haver uma [Row](https://api.flutter.dev/flutter/widgets/Row-class.html) \(linha\) para que os widgets sejam exibidos na horizontal;
 * A Row será composta por 3 itens do tipo [Column](https://api.flutter.dev/flutter/widgets/Column-class.html) \(coluna\), para que os widgets sejam exibidos na vertical;
 * Os widgets dentro da [Column](https://api.flutter.dev/flutter/widgets/Column-class.html) devem ser: [Icon](https://api.flutter.dev/flutter/widgets/Icon-class.html) e [Text](https://api.flutter.dev/flutter/widgets/Text-class.html) . 
 
-Então, temos: 
+Então, temos:
 
 ![](../.gitbook/assets/flutter-layout-2.png)
 
 {% hint style="success" %}
-Linhas e colunas farão parte de vários layouts que você irá construir, acostume-se. 
+Linhas e colunas farão parte de vários layouts que você irá construir, acostume-se.
 {% endhint %}
 
 Vamos construir o layout:
 
-A coluna \([Column](https://api.flutter.dev/flutter/widgets/Column-class.html)\) que contém o ícone \([Icon](https://api.flutter.dev/flutter/widgets/Icon-class.html)\) e o texto \([Text](https://api.flutter.dev/flutter/dart-html/Text-class.html)\). 
+A coluna \([Column](https://api.flutter.dev/flutter/widgets/Column-class.html)\) que contém o ícone \([Icon](https://api.flutter.dev/flutter/widgets/Icon-class.html)\) e o texto \([Text](https://api.flutter.dev/flutter/dart-html/Text-class.html)\).
 
 ```dart
 Column(
@@ -110,7 +110,7 @@ ListView(
 
 ![Nossa lista de widgets to tipo ListTile est&#xE1; pronta.](../.gitbook/assets/listview.png)
 
-{% embed url="https://codepen.io/rubensdemelo/pen/QWjJBJG" %}
+{% embed url="https://codepen.io/rubensdemelo/pen/QWjJBJG" caption="" %}
 
 Outras vezes, precisaremos empilhar um widget sobre o outro:
 
@@ -142,7 +142,7 @@ Stack(
 
 ![Os widgets do tipo Container est&#xE3;o &quot;empilhados&quot;](../.gitbook/assets/stack.png)
 
-{% embed url="https://codepen.io/rubensdemelo/pen/YzyRjom" %}
+{% embed url="https://codepen.io/rubensdemelo/pen/YzyRjom" caption="" %}
 
 Existem vários outros wigets que são utilizados para montar layouts. Para se aprofundar, recomendo que visite a seção [Layout](https://flutter.dev/docs/development/ui/widgets/layout) do catálogo de widgets.
 
