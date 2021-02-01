@@ -51,8 +51,9 @@ Todo o conteúdo deste livro também está em uma playlist no [Youtube](https://
 * [x] Ciclo de vida dos widgets
 * [x] Navegação
 * [x] Layout / Material / Cupertino
-* [x] Firebase
+* [x] Backend \(Firebase e AWS Amplify\)
 * [x] Gerenciamento de estado
+* [x] Animações
 
 
 
