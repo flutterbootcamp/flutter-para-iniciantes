@@ -156,7 +156,7 @@ class _HomePageState extends State<HomePage> {
                   } else {
                     return Text(
                       '${snapshot.data}',
-                      style: Theme.of(context).textTheme.display1,
+                      style: Theme.of(context).textTheme.headline4,
                     );
                   }
                 }),
@@ -172,7 +172,7 @@ class _HomePageState extends State<HomePage> {
   }
   @override
   void dispose() {
-    bloc.fecharStream
+    bloc.fecharStream();
     super.dispose();
   }
 }
