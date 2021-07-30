@@ -9,7 +9,7 @@ description: >-
 Cada seção pertence à uma etapa do aprendizado. Cada etapa foi desenhada para apresentar um novo conhecimento ou complementar a etapa anterior. Porém, se quiser ir direto para algum ponto chave, como gerenciamento de estado, Firebase, animações, não tem problema. 
 
 {% hint style="danger" %}
-A seção "Básico do básico" é fundamental para te dar uma base solida durante o seu aprendizado.
+A seção "Básico do básico" é fundamental para te dar uma base sólida durante o seu aprendizado.
 {% endhint %}
 
 Iremos construir 3 aplicativos, progressivamente, isto é, adicionando aos poucos novas funcionalidades, a medida em que formos aprendendo coisas novas.
