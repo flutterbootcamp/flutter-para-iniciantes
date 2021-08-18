@@ -1,5 +1,5 @@
 ---
-description: Entendo os principais widgets que te ajudarão na montagem da sua interface.
+description: Entenda os principais widgets que te ajudarão na montagem da sua interface.
 ---
 
 # Layout
