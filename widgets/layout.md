@@ -4,7 +4,7 @@ description: Entenda os principais widgets que te ajudarão na montagem da sua i
 
 # Layout
 
-Antes de construirmos uma tela, com botões, inputs, imagens, precisamos definir como será o seu layout, como por exemplo, se os itens serão posicionados na vertical ou horizontal. Na parte superior, teremos um slide com fotos fixo e abaixo uma lista de itens? São definições estruturais básicas e que devem ser feitas antes da customização \(não se começa construindo uma casa, sem antes ter a planta em mãos\).
+Antes de construirmos uma tela, com botões, inputs, imagens, precisamos definir como será o seu layout, como por exemplo, se os itens serão posicionados na vertical ou horizontal. Na parte superior, teremos um slide com fotos fixo e abaixo uma lista de itens? São definições estruturais básicas e que devem ser feitas antes da customização (não se começa construindo uma casa, sem antes ter a planta em mãos).
 
 Com Flutter é a mesma coisa: Definimos o layout da nossa tela e então vamos adicionando widgets de interface.
 
@@ -19,9 +19,9 @@ Podemos concluir que:
 
 Sendo um pouco mais _flutterista_:
 
-* Deve haver uma [Row](https://api.flutter.dev/flutter/widgets/Row-class.html) \(linha\) para que os widgets sejam exibidos na horizontal;
-* A Row será composta por 3 itens do tipo [Column](https://api.flutter.dev/flutter/widgets/Column-class.html) \(coluna\), para que os widgets sejam exibidos na vertical;
-* Os widgets dentro da [Column](https://api.flutter.dev/flutter/widgets/Column-class.html) devem ser: [Icon](https://api.flutter.dev/flutter/widgets/Icon-class.html) e [Text](https://api.flutter.dev/flutter/widgets/Text-class.html) . 
+* Deve haver uma [Row](https://api.flutter.dev/flutter/widgets/Row-class.html) (linha) para que os widgets sejam exibidos na horizontal;
+* A Row será composta por 3 itens do tipo [Column](https://api.flutter.dev/flutter/widgets/Column-class.html) (coluna), para que os widgets sejam exibidos na vertical;
+* Os widgets dentro da [Column](https://api.flutter.dev/flutter/widgets/Column-class.html) devem ser: [Icon](https://api.flutter.dev/flutter/widgets/Icon-class.html) e [Text](https://api.flutter.dev/flutter/widgets/Text-class.html) .&#x20;
 
 Então, temos:
 
@@ -33,7 +33,7 @@ Linhas e colunas farão parte de vários layouts que você irá construir, acost
 
 Vamos construir o layout:
 
-A coluna \([Column](https://api.flutter.dev/flutter/widgets/Column-class.html)\) que contém o ícone \([Icon](https://api.flutter.dev/flutter/widgets/Icon-class.html)\) e o texto \([Text](https://api.flutter.dev/flutter/dart-html/Text-class.html)\).
+A coluna ([Column](https://api.flutter.dev/flutter/widgets/Column-class.html)) que contém o ícone ([Icon](https://api.flutter.dev/flutter/widgets/Icon-class.html)) e o texto ([Text](https://api.flutter.dev/flutter/dart-html/Text-class.html)).
 
 ```dart
 Column(
@@ -41,11 +41,11 @@ Column(
 )
 ```
 
-![O resultado do c&#xF3;digo acima &#xE9; este widget.](../.gitbook/assets/screen-shot-2020-05-18-at-19.43.36.png)
+![O resultado do código acima é este widget.](../.gitbook/assets/screen-shot-2020-05-18-at-19.43.36.png)
 
-Precisaremos de 3 widgets \(a estrutura é a mesma, mudando apenas o ícone e o texto\).
+Precisaremos de 3 widgets (a estrutura é a mesma, mudando apenas o ícone e o texto).
 
-Eles serão exibidos em linha horizontal \([Row](https://api.flutter.dev/flutter/widgets/Row-class.html)\):
+Eles serão exibidos em linha horizontal ([Row](https://api.flutter.dev/flutter/widgets/Row-class.html)):
 
 ```dart
 Row(
@@ -66,9 +66,11 @@ Row(
 
 Pronto! Combinando widgets, montamos um outro widget que pode ser utilizado em qualquer lugar do nosso aplicativo.
 
-{% embed url="https://codepen.io/rubensdemelo/pen/KKdreEK" caption="Nosso primeiro layout com Flutter" %}
+{% embed url="https://codepen.io/rubensdemelo/pen/KKdreEK" %}
+Nosso primeiro layout com Flutter
+{% endembed %}
 
-Algumas vezes, nossa tela será composta por uma lista \(como a sua agenda de contatos, uma lista com vários itens\). Para isso, utilizamos o widget [ListView](https://api.flutter.dev/flutter/widgets/ListView-class.html). Um widget comum para compor listas é o [ListTile](https://api.flutter.dev/flutter/material/ListTile-class.html).
+Algumas vezes, nossa tela será composta por uma lista (como a sua agenda de contatos, uma lista com vários itens). Para isso, utilizamos o widget [ListView](https://api.flutter.dev/flutter/widgets/ListView-class.html). Um widget comum para compor listas é o [ListTile](https://api.flutter.dev/flutter/material/ListTile-class.html).
 
 ```dart
 ListTile(
@@ -108,9 +110,9 @@ ListView(
 )
 ```
 
-![Nossa lista de widgets to tipo ListTile est&#xE1; pronta.](../.gitbook/assets/listview.png)
+![Nossa lista de widgets to tipo ListTile está pronta.](../.gitbook/assets/listview.png)
 
-{% embed url="https://codepen.io/rubensdemelo/pen/QWjJBJG" caption="" %}
+{% embed url="https://codepen.io/rubensdemelo/pen/QWjJBJG" %}
 
 Outras vezes, precisaremos empilhar um widget sobre o outro:
 
@@ -140,11 +142,10 @@ Stack(
 )
 ```
 
-![Os widgets do tipo Container est&#xE3;o &quot;empilhados&quot;](../.gitbook/assets/stack.png)
+![Os widgets do tipo Container estão "empilhados"](../.gitbook/assets/stack.png)
 
-{% embed url="https://codepen.io/rubensdemelo/pen/YzyRjom" caption="" %}
+{% embed url="https://codepen.io/rubensdemelo/pen/YzyRjom" %}
 
 Existem vários outros wigets que são utilizados para montar layouts. Para se aprofundar, recomendo que visite a seção [Layout](https://flutter.dev/docs/development/ui/widgets/layout) do catálogo de widgets.
 
 Fonte: [https://flutter.dev/docs/development/ui/layout](https://flutter.dev/docs/development/ui/layout)
-

@@ -17,10 +17,10 @@ Recomendo o estudo deste [guia](https://dart.dev/guides/language/language-tour),
 Algumas características da linguagem:
 
 * Tipada, porém isto é opcional.
-* Moderna \(generics&lt;T&gt;, funções, interfaces e mixins\).
-* High Order Functions \( forEach\(\), map\(\), etc \).
-* Utiliza sintaxe _C-style_ \(como C\#, Javascript\).
-* Pode ser compilada e interpretada. ****
+* Moderna (generics\<T>, funções, interfaces e mixins).
+* High Order Functions ( forEach(), map(), etc ).
+* Utiliza sintaxe _C-style_ (como C#, Javascript).
+* Pode ser compilada e interpretada. _\*\*_
 
 Tipos suportados:
 
@@ -30,12 +30,12 @@ Tipos suportados:
 * list
 * set
 * map
-* rune \( representar UNICODE caracteres como string\)
+* rune ( representar UNICODE caracteres como string)
 * symbols
 
 ## Exemplos
 
-#### Hello World :
+### Hello World :
 
 ```dart
 void main() {
@@ -43,7 +43,7 @@ void main() {
 }
 ```
 
-#### Declarando variáveis, sem utilizar tipagem :
+### Declarando variáveis, sem utilizar tipagem :
 
 ```dart
 var name = 'Voyager I';
@@ -56,7 +56,7 @@ var image = {
 };
 ```
 
-#### Declarando variáveis utilizando tipagem :
+### Declarando variáveis utilizando tipagem :
 
 ```dart
 String name = 'Voyager I';
@@ -82,10 +82,10 @@ var name = 'Voyager I';
 ```
 
 {% hint style="info" %}
-#### Por inferência, Dart identifica o tipo da variável e nos garante todos os benefícios da tipagem estática, por isso a tal tipagem "opcional".
+### Por inferência, Dart identifica o tipo da variável e nos garante todos os benefícios da tipagem estática, por isso a tal tipagem "opcional".
 {% endhint %}
 
-#### Controle de fluxo :
+### Controle de fluxo :
 
 ```dart
 if (year >= 2001) {
@@ -107,7 +107,7 @@ while (year < 2016) {
 }
 ```
 
-#### Funções :
+### Funções :
 
 ```dart
 int fibonacci(int n) {
@@ -118,7 +118,7 @@ int fibonacci(int n) {
 var result = fibonacci(20);
 ```
 
-#### Tratamento de exceções :
+### Tratamento de exceções :
 
 ```dart
 try {
@@ -132,4 +132,3 @@ try {
   flybyObjects.clear();
 }
 ```
-

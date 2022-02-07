@@ -12,7 +12,7 @@
 * [Instalação e configuração do ambiente](instalacao-e-configuracao-do-ambiente.md)
 * [Hello World](hello-world.md)
 
-## Básico do básico <a id="basico"></a>
+## Básico do básico <a href="#basico" id="basico"></a>
 
 * [Anatomia de um aplicativo](basico/anatomia-de-um-aplicativo.md)
 * [Widgets](basico/widgets.md)
@@ -30,9 +30,9 @@
 
 * [Widget Tree](gerenciamento-de-estado/widget-tree.md)
 * [Estado: Local e Global](gerenciamento-de-estado/estado-local-e-global.md)
-* [setState\(\)](gerenciamento-de-estado/setstate.md)
+* [setState()](gerenciamento-de-estado/setstate.md)
 * [InheritedWidget](gerenciamento-de-estado/inheritedwidget.md)
-* [scoped\_model](gerenciamento-de-estado/scoped_model.md)
+* [scoped\_model](gerenciamento-de-estado/scoped\_model.md)
 * [BLoC](gerenciamento-de-estado/bloc.md)
 
 ## Animaçoes
@@ -44,15 +44,13 @@
 
 * [Rock In Rio](aplicativo-1-rock-in-rio/rock-in-rio.md)
 
-## Firebase
-
-* [O backend do seu aplicativo](firebase/firebase.md)
-
-## AWS Amplify
-
-* [O framework da Amazon](aws-amplify/o-framework-da-amazon.md)
-
 ## Copia e Cola
 
 * [Copia e Cola](copia-e-cola/so.md)
 
+## BACKEND
+
+* [Firebase](backend/firebase.md)
+* [AWS Amplify](backend/o-framework-da-amazon.md)
+* [Supabase](backend/supabase.md)
+* [Appwrite](backend/appwrite.md)
