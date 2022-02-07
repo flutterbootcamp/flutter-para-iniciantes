@@ -4,10 +4,16 @@ description: Soluções comuns para todo aplicativo
 
 # Copia e Cola
 
-**Novo projeto:** 
+**Novo projeto:**&#x20;
 
 ```dart
 flutter create --org br.com --description "A leitura engrandece a alma" books
+```
+
+**Novo projeto, com o template skeleton:**
+
+```dart
+flutter create -t skeleton meu_app
 ```
 
 **AppBar transparente:**
@@ -26,6 +32,4 @@ MaterialApp(
   debugShowCheckedModeBanner: false
 )
 ```
-
-
 
