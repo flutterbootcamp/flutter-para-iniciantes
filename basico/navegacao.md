@@ -56,4 +56,6 @@ ElevatedButton(
 
 Simples, certo? Ao navegar para a próxima tela, utilizamos o `push` e para voltar, o `pop`.
 
+{% embed url="https://codepen.io/rubensdemelo/pen/wvPdZmo" %}
+
 Exemplo de código completo no [DartPad](https://dartpad.dev/?id=ce72becd4fbd8a40dbeb819c31321c3e).
