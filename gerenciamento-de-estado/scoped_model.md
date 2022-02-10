@@ -6,13 +6,19 @@ description: >-
 
 # scoped\_model
 
-Com o [scoped\_model](https://pub.dev/packages/scoped_model) conseguimos facilmente compartilhar dados dentro do aplicativo e caso estes dados sofram alterações, notificamos todos aqueles widgets que dependem deste dado para que eles se atualizem.
+
+
+{% hint style="danger" %}
+Já existem melhores alternativas ao **scoped\_model**.
+{% endhint %}
+
+Com o [scoped\_model](https://pub.dev/packages/scoped\_model) conseguimos facilmente compartilhar dados dentro do aplicativo e caso estes dados sofram alterações, notificamos todos aqueles widgets que dependem deste dado para que eles se atualizem.
 
 {% hint style="success" %}
 Recomendo que você comece por este package. Ele com certeza irá te atender nos primeiros passos e ficará mais fácil entender como manipular o estado de um aplicativo com Flutter. E também irá te dar uma ótima base para utilizar outras soluções de gerenciamento de estado.
 {% endhint %}
 
-Nossa classe com o\(s\) dado\(s\) que queremos compartilhar deve estender a classe **Model** \(que pertence ao package\) e para notificarmos os widgets que o dado foi alterado, chamamos o método `notifyListeners()`.
+Nossa classe com o(s) dado(s) que queremos compartilhar deve estender a classe **Model** (que pertence ao package) e para notificarmos os widgets que o dado foi alterado, chamamos o método `notifyListeners()`.
 
 ```dart
 void main() {
@@ -100,8 +106,7 @@ class ContadorHome extends StatelessWidget {
 Como podemos perceber, o **scoped\_model** possibilita que qualquer widget filho de que **ScopedModel** acesse os atributos e métodos do **ContadorModel**, através do widget **ScopedModelDescendant**.
 
 {% hint style="info" %}
-Sempre que o método **notifyListeners\(\)** for chamado, ele irá atualizar **TODOS** os widgets **ScopedModelDescendant** que forem filhos de **ScopedModel&lt;ContadorModel&gt; \(**a função **builder** será executada novamente\).
+Sempre que o método **notifyListeners()** for chamado, ele irá atualizar **TODOS** os widgets **ScopedModelDescendant** que forem filhos de **ScopedModel\<ContadorModel> (**a função **builder** será executada novamente).
 {% endhint %}
 
 Devido ao fato de podermos vincular apenas 1 classe ao widget **ScopedModel**, em aplicativos com mais classes que compartilham dados, não é recomendado o uso do scoped\_model pois nosso estado pode ser alterado mais de 1 classe. Para situações assim, considere utilizar alguma das próximas opções deste livro.
-
