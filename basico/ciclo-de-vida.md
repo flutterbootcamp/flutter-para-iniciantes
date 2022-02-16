@@ -39,18 +39,20 @@ Inicialmente, parece ser tão simples quando o [Stateless](https://api.flutter.d
 ![Ciclo de vida de um Stateful widget](../.gitbook/assets/stateful.png)
 
 ```dart
-class MeuWidgetImutavel extends StatefulWidget {
+import 'package:flutter/material.dart';
 
+class MeuWidgetMutavel extends StatefulWidget {
   @override
-  _MeuWidgetImutavelState createState() => _MeuWidgetImutavelState();
+  _MeuWidgetMutavelState createState() => _MeuWidgetMutavelState();
 }
 
-class _MeuWidgetImutavelState extends State<MeuWidgetImutavel> {
+class _MeuWidgetMutavelState extends State<MeuWidgetMutavel> {
   @override
   Widget build(BuildContext context) {
     return const Text('Eu terei meu estado alterado');
   }
 }
+
 ```
 
 * O uso do "\_" torna o widget privado para o escopo da biblioteca em que ele se encontra;
