@@ -6,7 +6,7 @@ description: >-
 
 # Ciclo de vida dos widgets
 
-Anteriormente vimos os 2 tipos de widgets e agora vamos entende o ciclo de vida de cada um deles.
+Anteriormente vimos os 2 tipos de widgets e agora vamos entender o ciclo de vida de cada um deles.
 
 ## [Stateless](https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html)
 
