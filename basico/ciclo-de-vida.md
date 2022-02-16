@@ -21,7 +21,7 @@ class MeuWidgetImutavel extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text('Eu não terei meu estado alterado');
+    return const Text('Eu não terei meu estado alterado');
   }
 }
 ```
@@ -48,7 +48,7 @@ class MeuWidgetImutavel extends StatefulWidget {
 class _MeuWidgetImutavelState extends State<MeuWidgetImutavel> {
   @override
   Widget build(BuildContext context) {
-    return Text('Eu terei meu estado alterado');
+    return const Text('Eu terei meu estado alterado');
   }
 }
 ```
