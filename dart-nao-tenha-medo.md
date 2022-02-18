@@ -51,7 +51,7 @@ var year = 1977;
 var antennaDiameter = 3.7;
 var flybyObjects = ['Jupiter', 'Saturn', 'Uranus', 'Neptune'];
 var image = {
-  'tags': ['saturn'],
+  'tags': 'saturn',
   'url': '//path/to/saturn.jpg'
 };
 ```
@@ -64,7 +64,7 @@ int year = 1977;
 double antennaDiameter = 3.7;
 List<String> flybyObjects = ['Jupiter', 'Saturn', 'Uranus', 'Neptune'];
 Map<String, String> image = {
-  'tags': ['saturn'],
+  'tags': 'saturn',
   'url': '//path/to/saturn.jpg'
 };
 ```
