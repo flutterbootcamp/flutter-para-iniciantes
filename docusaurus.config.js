@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Este livro é para você 😉',
-  tagline: 'Que deseja escrever os seus primeiros aplicativos com Flutter',
+  title: 'Flutter para iniciantes',
+  tagline: 'Este livro é para você 😉! Que deseja escrever os seus primeiros aplicativos com Flutter',
   url: 'https://flutterparainiciantes.com.br',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -25,13 +25,13 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/flutterbootcamp/flutter-para-iniciantes/tree/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/flutterbootcamp/flutter-para-iniciantes/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
