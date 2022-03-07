@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 259.6539697597934 71.32525912317675" width="778.9619092793803" height="213.97577736953025">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style>
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+    </style>
+  </defs>
+  <g transform="translate(10 10.871791805325756) rotate(0 24.376394322108013 24.376394322107984)"><text x="0" y="38.752788644215975" font-family="Cascadia, Segoe UI Emoji" font-size="40.81628816725058px" fill="#c92a2a" text-anchor="start" style="white-space: pre;" direction="ltr">UI</text></g><g transform="translate(65.41378011595339 11.155238250932143) rotate(0 12.471643606659882 24.376394322107984)"><text x="0" y="38.752788644215975" font-family="Cascadia, Segoe UI Emoji" font-size="40.81628816725059px" fill="#495057" text-anchor="start" style="white-space: pre;" direction="ltr">=</text></g><g transform="translate(101.83664837631477 12.572470478960781) rotate(0 12.471643606659882 24.376394322107984)"><text x="0" y="38.752788644215975" font-family="Cascadia, Segoe UI Emoji" font-size="40.81628816725059px" fill="#364fc7" text-anchor="start" style="white-space: pre;" direction="ltr">f</text></g><g transform="translate(129.47267682288884 10.021452468508869) rotate(0 60.09064646845229 24.376394322107984)"><text x="0" y="38.752788644215975" font-family="Cascadia, Segoe UI Emoji" font-size="40.81628816725059px" fill="#2b8a3e" text-anchor="start" style="white-space: pre;" direction="ltr">state</text></g><g transform="translate(198.6171778727271 10) rotate(0 12.471643606659882 24.376394322107984)"><text x="0" y="38.752788644215975" font-family="Cascadia, Segoe UI Emoji" font-size="40.81628816725059px" fill="#364fc7" text-anchor="start" style="white-space: pre;" direction="ltr">)</text></g><g transform="translate(121.31904345798284 10.089787383391467) rotate(0 12.471643606659882 24.376394322107984)"><text x="0" y="38.752788644215975" font-family="Cascadia, Segoe UI Emoji" font-size="40.81628816725059px" fill="#364fc7" text-anchor="start" style="white-space: pre;" direction="ltr">(</text></g></svg>
