@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'flutterbootcamp', // Usually your GitHub org/user name.
-  projectName: 'flutter-para-iniciantes', // Usually your repo name.
+  organizationName: 'flutterbootcamp',
+  projectName: 'flutter-para-iniciantes',
 
   presets: [
     [
@@ -24,12 +24,10 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl: 'https://github.com/flutterbootcamp/flutter-para-iniciantes/tree/master/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
             'https://github.com/flutterbootcamp/flutter-para-iniciantes/tree/master/',
         },
