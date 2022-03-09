@@ -14,8 +14,9 @@ Utilizando a linguagem Dart \(que também foi criada pelo Google\), Flutter ofer
 
 Até a versão 1.2, Flutter entregava apps para iOS e Android. Quando a versão 1.5 foi lançada, durante o Google IO 2019, o post oficial de lançamento termina com a seguinte frase: "**Flutter não é mais um framework mobile, mas um framework multi-plataforma.**
 
-
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/QGNrR4Ffqb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QGNrR4Ffqb4" title="Flutter para iniciantes #01 - O que é o Flutter" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Origem
 

@@ -10,6 +10,4 @@ Assim como [React Native](https://facebook.github.io/react-native/), [Xamarin](h
 
 ![Conteúdo](/img/conteudo.webp)
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/QGNrR4Ffqb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-
-<!-- ![Conteúdo](/img/conteudo.svg) -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fx15Ta3Tm3Q" title="Flutter para iniciantes #0 - Apresentação" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
