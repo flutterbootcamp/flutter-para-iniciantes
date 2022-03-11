@@ -35,6 +35,7 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
+      <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e13fbf66d9bf4edfb8d264825f0f103b"}'></script>
     </Layout>
   );
 }

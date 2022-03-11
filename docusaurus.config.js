@@ -123,7 +123,7 @@ const config = {
       },
       algolia: {
         appId: '67GNKK2AYK',
-        apiKey: '31c8c212d29be94487fe462af3bc2b01',
+        apiKey: 'e43ac64501a26ce7ba97620ff6cd5e13',
         indexName: 'flutterparainiciantes',
       },
     }),
