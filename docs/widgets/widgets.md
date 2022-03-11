@@ -48,6 +48,6 @@ Ambos pacotes nos fornecem widgets _**ready-to-use**_**,** bastando importá-los
 
 Nada nos impede de criarmos um app com a "cara" do iOS para Android e vice-versa. Também não significa que nosso aplicativo sempre terá uma aparência _ios-style_ ou _android-style_, muito pelo contrário. Flutter nos proporciona níveis incríveis de personalização.
 
-#### Fonte:
-
-[https://flutter.dev/docs/development/ui/widgets-intro](https://flutter.dev/docs/development/ui/widgets-intro)
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LmvKK3PlFBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
