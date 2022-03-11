@@ -30,3 +30,7 @@ Restarted application in 1.768ms.
 ## Como a mágica acontece?
 
 Quando alteramos o código, a Dart VM \(virtual machine\) consegue identificar esta alteração e sobrepõe a classe antiga com esta nova, portanto, apenas aquela parte alterada será reconstruída.
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XiHGg1ZyTiQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

@@ -34,10 +34,14 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        googleAnalytics: {
+          trackingID: 'UA-139865145-1',
+          anonymizeIP: true,
+        },
         gtag: {
           trackingID: 'G-W6GR4Q1P3Z',
           anonymizeIP: true,
-        },
+        }
       }),
     ],
   ],
@@ -116,6 +120,11 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         additionalLanguages: ['dart'],
+      },
+      algolia: {
+        appId: '67GNKK2AYK',
+        apiKey: '31c8c212d29be94487fe462af3bc2b01',
+        indexName: 'flutterparainiciantes',
       },
     }),
 };
