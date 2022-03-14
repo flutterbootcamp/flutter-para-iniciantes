@@ -17,6 +17,11 @@ Recomendo o estudo deste [guia](https://dart.dev/guides/language/language-tour),
 
 À medida que avançarmos com o conteúdo, você irá aprender Dart aos poucos, não se preocupe.
 
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nh0h4eBM0SE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
 Algumas características da linguagem:
 
 - Tipada, porém isto é opcional.
