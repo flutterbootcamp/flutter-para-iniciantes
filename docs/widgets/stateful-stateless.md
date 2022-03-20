@@ -108,3 +108,7 @@ class _WidgetComEstadoState extends State<WidgetComEstado> {
 Veja o código acima em ação no [DartPad](https://dartpad.dev/7cdef4bf893153604b7fb18a6c9a6142).
 
 Ainda há espaço nos aprofundarmos neste assunto, mas por hora, entender esta básica diferença entre os tipos de widgets já é o suficiente. 
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/50b-Ji2V6n0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
