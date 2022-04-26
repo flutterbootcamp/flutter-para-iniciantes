@@ -22,6 +22,10 @@ Para manipular a "pilha" de telas no Flutter, utilizamos o widget [Navigator](ht
 
 Agora já sabemos os conceitos básicos de navegação no Flutter, vamos ver no código, como eles são implementados:
 
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IFS7DWnE3-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 :::tip
 A transição entre telas é diferente no iOS e no Android. Sabendo disso, o Flutter se adapta "automagicamente" à cada plataforma e proporciona o efeito e transição padrão em cada uma delas.
 :::
