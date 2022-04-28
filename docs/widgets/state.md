@@ -44,3 +44,7 @@ import TabItem from '@theme/TabItem';
 :::tipo 
 Cada um dos métodos acima são executados em momentos diferentes. Cada um deles possui responsabilidades e comportamentos diferentes, logo, devemos utilizá-los da maneira correta.
 :::
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lEwYr93rjIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
