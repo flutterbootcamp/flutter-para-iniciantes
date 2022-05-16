@@ -8,7 +8,7 @@ sidebar_position: 1
 
 Conforme vamos construindo nosso aplicativo, compondo widgets uns aos outros, esta estrutura pode \(e com certeza vai\) crescendo. Estando ela cada vez maior, fica mais complicado de que a nossa interface represente o estado da nossa aplicação. 
 
-<!-- A imagem abaixo é da [documentação](https://flutter.dev/docs/development/data-and-backend/state-mgmt/intro) e ilustra perfeitamente um caso de um carrinho de compras:
+A imagem abaixo é da [documentação](https://flutter.dev/docs/development/data-and-backend/state-mgmt/intro) e ilustra perfeitamente um caso de um carrinho de compras:
 
 ![](../.gitbook/assets/state-management-explainer-5495afe6c3d6162f145107fe45794583bc4f2b55be377c76a92ab210be74c033.gif)
 
@@ -28,5 +28,9 @@ Sabendo disso, à partir de agora, iremos nos orientar pela "regra" abaixo:
 :::info
 Reconstruir apenas a quantidade necessária de widgets quando o estado da aplicação sofrer alterações.
 :::
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q5V22FpFDv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <!-- E como não desviar desta regra? Utilizando alguma solução de [gerenciamento de estado](https://flutter.dev/docs/development/data-and-backend/state-mgmt/options). -->
