@@ -10,7 +10,7 @@ Conforme vamos construindo nosso aplicativo, compondo widgets uns aos outros, es
 
 A imagem abaixo é da [documentação](https://flutter.dev/docs/development/data-and-backend/state-mgmt/intro) e ilustra perfeitamente um caso de um carrinho de compras:
 
-![](../.gitbook/assets/state-management-explainer-5495afe6c3d6162f145107fe45794583bc4f2b55be377c76a92ab210be74c033.gif)
+![iOS](/img/state-management-explainer.gif)
 
 * MyApp - Nosso widget raiz. É por aqui que o aplicativo começa. 
 * MyLoginScreen - Tela inicial exibida ao usuário.

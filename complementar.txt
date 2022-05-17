@@ -1,8 +1,0 @@
-
-
-Durante o desenvolvimento, o seu código Dart é interpretado \(JIT\), possibilitando assim o hot reload e hot restart.
-
-
-
-Ao gerar a versão final de um aplicativo, o código Dart é compilado \(AOT\) para bibliotecas arm/x86 e executado diretamente pelo hardware e isto é o que garante a alta performance.
-
