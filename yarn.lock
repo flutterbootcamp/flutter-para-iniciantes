@@ -1183,7 +1183,7 @@
     "@docsearch/css" "3.0.0"
     "algoliasearch" "^4.0.0"
 
-"@docusaurus/core@^2.0.0-beta.17", "@docusaurus/core@2.0.0-beta.20":
+"@docusaurus/core@^2.0.0-beta.20", "@docusaurus/core@2.0.0-beta.20":
   "integrity" "sha512-a3UgZ4lIcIOoZd4j9INqVkWSXEDxR7EicJXt8eq2whg4N5hKGqLHoDSnWfrVSPQn4NoG5T7jhPypphSoysImfQ=="
   "resolved" "https://registry.npmjs.org/@docusaurus/core/-/core-2.0.0-beta.20.tgz"
   "version" "2.0.0-beta.20"
@@ -1408,7 +1408,7 @@
     "sitemap" "^7.1.1"
     "tslib" "^2.4.0"
 
-"@docusaurus/preset-classic@^2.0.0-beta.17":
+"@docusaurus/preset-classic@^2.0.0-beta.20":
   "integrity" "sha512-artUDjiYFIlGd2fxk0iqqcJ5xSCrgormOAoind1c0pn8TRXY1WSCQWYI6p4X24jjhSCzLv0s6Z9PMDyxZdivhg=="
   "resolved" "https://registry.npmjs.org/@docusaurus/preset-classic/-/preset-classic-2.0.0-beta.20.tgz"
   "version" "2.0.0-beta.20"
@@ -2714,7 +2714,7 @@
     "domutils" "^2.8.0"
 
 "cheerio@^0.22.0":
-  "integrity" "sha1-qbqoYKP5tZWmuBsahocxIe06Jp4="
+  "integrity" "sha512-8/MzidM6G/TgRelkzDG13y3Y9LxBjCb+8yOEZ9+wwq5gVF2w2pV0wmHvjfT0RvuxGyR7UEuK36r+yYMbT4uKgA=="
   "resolved" "https://registry.npmjs.org/cheerio/-/cheerio-0.22.0.tgz"
   "version" "0.22.0"
   dependencies:
