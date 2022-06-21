@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Interface
 
-Antes de construirmos uma tela, com botões, inputs, imagens, precisamos definir como será o seu layout, como por exemplo, se os itens serão posicionados na vertical ou horizontal. Na parte superior, teremos um slide com fotos fixo e abaixo uma lista de itens? São definições estruturais básicas e que devem ser feitas antes da customização (não se começa construindo uma casa, sem antes ter a planta em mãos).
+Antes de construirmos uma tela, com botões, inputs, imagens, precisamos definir como será o seu layout, por exemplo, se os itens serão posicionados na vertical ou horizontal. Na parte superior, teremos um slide com fotos fixo e abaixo uma lista de itens? São definições estruturais básicas e que devem ser feitas antes da customização (não se começa construindo uma casa, sem antes ter a planta em mãos).
 
 Com Flutter é a mesma coisa: Definimos o layout da nossa tela e então vamos adicionando widgets de interface.
 
@@ -67,9 +67,11 @@ Row(
 
 Pronto! Combinando widgets, montamos um outro widget que pode ser utilizado em qualquer lugar do nosso aplicativo.
 
-{% embed url="https://codepen.io/rubensdemelo/pen/KKdreEK" %}
-Nosso primeiro layout com Flutter
-{% endembed %}
+<iframe height="300" width="100%;" scrolling="no" title="Navegacao" src="https://codepen.io/rubensdemelo/embed/wvPdZmo?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/rubensdemelo/pen/KKdreEK">
+  Navegacao</a> by rubensdemelo (<a href="https://codepen.io/rubensdemelo">@rubensdemelo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 Algumas vezes, nossa tela será composta por uma lista (como a sua agenda de contatos, uma lista com vários itens). Para isso, utilizamos o widget [ListView](https://api.flutter.dev/flutter/widgets/ListView-class.html). Um widget comum para compor listas é o [ListTile](https://api.flutter.dev/flutter/material/ListTile-class.html).
 
