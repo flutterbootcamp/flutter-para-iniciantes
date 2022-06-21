@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Parte 4 - Favoritos
+# Parte 4 - Navegação
 
 Precisamos de uma estrutura para armazenar as atrações que foram favoritadas pelo usuário. 
 
@@ -38,7 +38,6 @@ return Scaffold(
 
 
 
-```
 <div class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/P2krR7V_NbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6h-fOx0wRQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
