@@ -8,7 +8,7 @@ No [catálogo](https://flutter.dev/docs/development/ui/widgets/material) de widg
 
 Navegando pelo catálogo, é possível identificar o que cada widget representa, porém listarei aqui os principais:
 
-[MaterialApp](https://api.flutter.dev/flutter/material/MaterialApp-class.html): Fornece uma estrutura completa para um aplicativo. Todas as rotas, opções de tema podem ser configuradas. Bem como a tela inicial. Ele será o widget raiz de um aplicativo. 
+[MaterialApp](https://api.flutter.dev/flutter/material/MaterialApp-class.html): Fornece a estrutura completa para um aplicativo, de acordo com o Material Design. Todas as rotas/navegações são gerenciadas por ele. A estilização (tema / cores / fontes / textos, etc) podem (e devem) ser definidos aqui. A ii18n(internacionalização) do aplicativo também é configurada neste widget. Ele será o widget raiz de um aplicativo. 
 
 [Scaffold](https://api.flutter.dev/flutter/material/Scaffold-class.html): Para estruturar o layout de  uma tela, este é o widget ideal. Neste podemos adicionar barras de navegação \(superior e inferior\),  e na propriedade **body**, definimos o principal widget da nossa tela.
 
