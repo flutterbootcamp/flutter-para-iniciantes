@@ -10,7 +10,7 @@ A navegação no Flutter utiliza o conceito de "[pilha](https://pt.wikipedia.org
 A última tela que entra, é a primeira tela que sai.
 :::
 
-![Navegação](/img/navegacao.png)
+![Navegação](/img/navegacao.svg)
 
 Para manipular a "pilha" de telas no Flutter, utilizamos o widget [Navigator](https://api.flutter.dev/flutter/widgets/Navigator-class.html). Com o princípio de  **"o último que entra é o primeiro que sai"**, temos as operações de **push** e **pop**, para adicionarmos e removermos telas da nossa "pilha" de navegação.
 
