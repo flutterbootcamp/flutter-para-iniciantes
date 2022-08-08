@@ -31,3 +31,7 @@ Imagine que alguém te delega uma tarefa: **ir ao mercado comprar leite**. A tar
 **Explícita:** Vá ao mercado, compre 1 litro de leite desnatado, da marca XPTO, antes das 9h da manhã.
 
 Trazendo para o nosso contexto, nós delegamos ao Flutter a tarefa de animar widgets. Seja mudar da cor vermelho para amarelo, mudar do tamanho de 10 para 30, ir do ponto X para o ponto Y. A animação é a mesma, porém, a forma como delegamos pode ser implícita ou explícita.  
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-Gqq5R7rvg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
