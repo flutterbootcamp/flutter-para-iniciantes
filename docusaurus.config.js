@@ -113,6 +113,14 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Flutter Bootcamp`,
       },
+      announcementBar: {
+        id: 'lancamento',
+        content:
+          'Lançamento do Flutter Bootcamp! <a target="_blank" rel="noopener noreferrer" href="https://flutterbootcamp.com.br/">Saiba mais</a>',
+        backgroundColor: '#ffcc3d',
+        textColor: '#091E42',
+        isCloseable: false,
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
