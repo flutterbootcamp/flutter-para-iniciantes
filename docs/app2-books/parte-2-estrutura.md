@@ -2,10 +2,13 @@
 sidebar_position: 2
 ---
 
-# Parte 1 - Estrutura
+# Parte 2 - Estrutura
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_ERoNVUVGBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 Esta é base do Books. Nada de novo (por enquanto).
-
-
 
 ```dart
 import 'package:flutter/material.dart';
@@ -57,3 +60,4 @@ class _HomePageState extends State<HomePage> {
   }
 }
 ```
+

@@ -2,7 +2,11 @@
 sidebar_position: 4
 ---
 
-# Parte 3 - Favoritos
+# Parte 4 - Favoritos
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P2krR7V_NbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 O ListTile agora está completo.
 
@@ -27,6 +31,3 @@ return ListTile(
 );
 ```
 
-<div class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/P2krR7V_NbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>

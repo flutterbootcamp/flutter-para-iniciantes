@@ -2,7 +2,11 @@
 sidebar_position: 2
 ---
 
-# Parte 1 - Estrutura
+# Parte 2 - Estrutura
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dxKEuLdfmvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Criando um MaterialApp;
 
@@ -16,9 +20,7 @@ Enquanto não implementamos o `body`, utilizamos o widget `Placeholder`
 
 Criamos uma lista de `Atracao`, que será exibida ao usuário
 
-<div class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dxKEuLdfmvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
 
 
 ```dart

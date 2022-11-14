@@ -2,7 +2,11 @@
 sidebar_position: 6
 ---
 
-# Parte 5 - Final
+# Parte 6 - Final
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I61FkVKTxO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Adicionado a navegação para `AtracaoPage`, utilizando a função `onTap` do `ListTile`. 
 
@@ -21,6 +25,3 @@ return ListTile(
 );
 ```
 
-<div class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I61FkVKTxO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
