@@ -51,14 +51,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      announcementBar: {
-        id: 'lancamento',
-        content:
-          'Lançamento do Flutter Bootcamp! <a target="_blank" rel="noopener noreferrer" href="https://flutterbootcamp.com.br/">Saiba mais</a>',
-        backgroundColor: '#ffcc3d',
-        textColor: '#091E42',
-        isCloseable: false,
-      },
+      // announcementBar: {
+      //   id: 'lancamento',
+      //   content:
+      //     'Lançamento do Flutter Bootcamp! <a target="_blank" rel="noopener noreferrer" href="https://flutterbootcamp.com.br/">Saiba mais</a>',
+      //   backgroundColor: '#ffcc3d',
+      //   textColor: '#091E42',
+      //   isCloseable: false,
+      // },
       navbar: {
         title: "Flutter para iniciantes",
         logo: {
