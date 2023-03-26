@@ -11,4 +11,8 @@ Com a imagem abaixo, ficará mais fácil acompanhar a explicação:
 
 Nossa interface, reflete o estado da nossa aplicação. Sempre que o estado da aplicação muda, os widgets são reconstruídos para atender aquele novo estado. Seja um botão ou ícone que muda de cor após ser pressionado ou até mesmo toda uma tela após o usuário logar no aplicativo.
 
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tpvCrr1HCxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 Jetpack Compose e Swift UI, os novos kits de desenvolvimento para Android e iOS, respectivamente, utilizam esta abordagem.
