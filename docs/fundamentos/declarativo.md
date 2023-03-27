@@ -15,4 +15,8 @@ Nossa interface, reflete o estado da nossa aplicação. Sempre que o estado da a
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tpvCrr1HCxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-Jetpack Compose e Swift UI, os novos kits de desenvolvimento para Android e iOS, respectivamente, utilizam esta abordagem.
+:::tip Jetpack Compose e Swift UI
+
+Os novos kits de desenvolvimento para Android e iOS, respectivamente, utilizam esta abordagem.
+
+:::
