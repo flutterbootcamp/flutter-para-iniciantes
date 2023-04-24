@@ -62,3 +62,7 @@ Percebeu que o Flutter se encarregou de executar a animação, após invocarmos 
 A facilidade de implementar este tipo de animação, justifica a ausência de controle. É possível melhorar a experiência do usuário com widgets animados em poucas linhas de código, como vimos acima.
 
 E mesmo que precise controlar cada detalhe de uma animação, temos as animações explícitas disponíveis. 
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OoE2THdaTfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
