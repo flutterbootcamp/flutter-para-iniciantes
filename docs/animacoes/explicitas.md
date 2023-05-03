@@ -8,9 +8,9 @@ sidebar_position: 3
 
 São úteis para criar animações complexas e personalizadas. 
 
-:::tip
-
+:::tip Lembre-se
 Os comandos para da animação devem ser explícitos.
+:::
 
 Para ter todo este controle é necessário escrever mais código. Vamos lá!
 
