@@ -64,5 +64,13 @@ A facilidade de implementar este tipo de animação, justifica a ausência de co
 E mesmo que precise controlar cada detalhe de uma animação, temos as animações explícitas disponíveis. 
 
 <div class="video-container">
+<iframe width="560" height="315" src="https://dartpad.dev/?id=2789351d73fdf4fbbd78d5831226774c" title="DartPad animação implícita" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+Confira este vídeo: 
+
+
+<div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OoE2THdaTfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
