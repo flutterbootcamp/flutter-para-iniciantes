@@ -55,7 +55,6 @@ Padding: [https://api.flutter.dev/flutter/widgets/AnimatedPadding-class.html](ht
 
 Todos os widgets **animated** derivam de um [ImplicityAnimatedWidget](https://api.flutter.dev/flutter/widgets/ImplicitlyAnimatedWidget-class.html). Nela, é possível ver todos os widgets disponíveis \(ou seja, widget que implementam esta classe\).
 
-## Conclusão
 
 Percebeu que o Flutter se encarregou de executar a animação, após invocarmos o **`setState()`** ? Tivemos pouco ou nenhum controle sobre ela, apenas delegamos a tarefa de animar o container da cor vermelha para amarela. 
 
