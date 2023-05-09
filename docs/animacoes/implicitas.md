@@ -47,11 +47,13 @@ Só precisamos adicionar o parametro `duration`, para indicar quanto em tempo a 
 
 Muito simples, certo ?! E o melhor de tudo é que o Flutter já nos oferece vários widgets **"Animated"**:
 
-Alinhamento: [https://api.flutter.dev/flutter/widgets/AnimatedAlign-class.html](https://api.flutter.dev/flutter/widgets/AnimatedAlign-class.html)
+Alinhamento: [AnimatedAlign](https://api.flutter.dev/flutter/widgets/AnimatedAlign-class.html)
 
-Opacidade: [https://api.flutter.dev/flutter/widgets/AnimatedOpacity-class.html](https://api.flutter.dev/flutter/widgets/AnimatedOpacity-class.html)
+Opacidade: [AnimatedOpacity](https://api.flutter.dev/flutter/widgets/AnimatedOpacity-class.html)
 
-Padding: [https://api.flutter.dev/flutter/widgets/AnimatedPadding-class.html](https://api.flutter.dev/flutter/widgets/AnimatedPadding-class.html)
+Padding: [AnimatedPadding](https://api.flutter.dev/flutter/widgets/AnimatedPadding-class.html)
+
+Escala: [AnimatedScale](https://api.flutter.dev/flutter/widgets/AnimatedScale-class.html)
 
 Todos os widgets **animated** derivam de um [ImplicityAnimatedWidget](https://api.flutter.dev/flutter/widgets/ImplicitlyAnimatedWidget-class.html). Nela, é possível ver todos os widgets disponíveis \(ou seja, widget que implementam esta classe\).
 
