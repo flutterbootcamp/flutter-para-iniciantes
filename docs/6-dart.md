@@ -10,7 +10,7 @@ description: 'Entender a arquitetura do Flutter é importante, precisamos entend
 Flutter.
 :::
 
-Flutter sofre algumas críticas pelo fato de utilizar Dart, mas é graças à ela que ele se torna um framework único, tanto para o desenvolvedor quanto para o usuário final. O desenvolvedor tem uma incrível [experiência](developer-experience.md) e o usuário final tem um aplicativo nativo, de alta performance.
+Flutter sofre algumas críticas pelo fato de utilizar Dart, mas é graças à ela que ele se torna um framework único, tanto para o desenvolvedor quanto para o usuário final. O desenvolvedor tem uma incrível [experiência](3-developer-experience.md) e o usuário final tem um aplicativo nativo, de alta performance.
 
 Caso você já possua experiência com qualquer linguagem _C-style_, irá perceber que Dart é muito amigável e não terá dificuldades em aprendê-la.
 
