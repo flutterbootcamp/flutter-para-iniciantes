@@ -66,13 +66,23 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
-          {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Conteúdo",
-          },
+          // {
+          //   type: "doc",
+          //   docId: "intro",
+          //   position: "left",
+          //   label: "Conteúdo",
+          // },
           { to: "/blog", label: "Blog", position: "left" },
+          {
+            href: "https://flutterbootcamp.com.br/",
+            label: "Bootcamp",
+            position: "right",
+          },
+          {
+            href: "https://www.youtube.com/playlist?list=PLS4cqF1_X2syzBpkoSwtmKoREgnp1MhTn",
+            label: "Youtube",
+            position: "right",
+          },
           {
             href: "https://github.com/flutterbootcamp/flutter-para-iniciantes",
             label: "GitHub",
@@ -80,47 +90,47 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Conteúdo",
-            items: [
-              {
-                label: "Introdução",
-                to: "/intro",
-              },
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-            ],
-          },
-          {
-            title: "Mais",
-            items: [
-              {
-                label: "Youtube",
-                href: "https://www.youtube.com/playlist?list=PLS4cqF1_X2syzBpkoSwtmKoREgnp1MhTn",
-              },
-              {
-                label: "Discord",
-                href: "https://discord.gg/Drgwuv69",
-              },
-            ],
-          },
-          {
-            title: "Treinamento",
-            items: [
-              {
-                label: "Bootcamp",
-                href: "https://flutterbootcamp.com.br/",
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Flutter Bootcamp`,
-      },
+      // footer: {
+      //   style: "dark",
+      //   links: [
+      //     {
+      //       title: "Conteúdo",
+      //       items: [
+      //         {
+      //           label: "Introdução",
+      //           to: "/intro",
+      //         },
+      //         {
+      //           label: "Blog",
+      //           to: "/blog",
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: "Mais",
+      //       items: [
+      //         {
+      //           label: "Youtube",
+      //           href: "https://www.youtube.com/playlist?list=PLS4cqF1_X2syzBpkoSwtmKoREgnp1MhTn",
+      //         },
+      //         {
+      //           label: "Discord",
+      //           href: "https://discord.gg/Drgwuv69",
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: "Treinamento",
+      //       items: [
+      //         {
+      //           label: "Bootcamp",
+      //           href: "https://flutterbootcamp.com.br/",
+      //         },
+      //       ],
+      //     },
+      //   ],
+      //   copyright: `Copyright © ${new Date().getFullYear()} Flutter Bootcamp`,
+      // },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 15
 ---
 
 # setState()
@@ -23,3 +23,7 @@ O grande problema com ele é que à medida que o aplicativo for crescendo e ganh
 
 O `setState()` é ideal para o estado **local** de um widget, como marcar/desmarcar um checkbox/switch. Para o estado **global** da aplicação \(ex: usuário logado, carrinho de compras\) há outras opções mais robustas e que permitem atualizar vários widgets quando o estado sofrer alterações.
 
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GMrvZsmgW34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>

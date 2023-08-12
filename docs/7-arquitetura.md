@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 7
 description: 'Entender a arquitetura do Flutter é importante, precisamos entender toda a "anatomia" dos nossos aplicativos.'
 ---
 

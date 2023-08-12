@@ -6,9 +6,9 @@ sidebar_position: 2
 
 Em seu site, a definição oficial é:
 
-**Flutter é um kit de ferramentas do Google para construir aplicações lindas, nativamente compiladas para mobile, web, desktop à partir de um único código-base."**
+**Flutter transforma o processo de desenvolvimento de aplicativos. Construa, teste e implante belos aplicativos móveis, web, desktop e embarcados de alta qualidade a partir de um único código-fonte"**
 
-Resumindo: você vai escrever o código apenas 1 vez e seu aplicativo vai poder ser executado em até 4 plataformas diferentes.
+Resumindo: você vai escrever o código apenas 1 vez e seu aplicativo vai poder ser executado em até 6 plataformas diferentes.
 
 Utilizando a linguagem Dart \(que também foi criada pelo Google\), Flutter oferece uma incrível experiência para desenvolvedores e usuários.
 

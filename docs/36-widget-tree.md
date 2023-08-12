@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 36
 ---
 
 # Widget Tree
@@ -19,7 +19,7 @@ A imagem abaixo é da [documentação](https://flutter.dev/docs/development/data
 
 O ponto chave aqui é a ação do usuário de adicionar um produto ao carrinho de compras. Pois é preciso informar ao MyCart, que seu estado mudou, agora ele possui 1 item \(MyListitem\). 
 
-Neste exemplo, nossa árvore de widgets é pequena. Imagine se dentro do catálogo tivéssemos uma divisão por categorias e sub-categorias ou que no carrinho poderíamos ter lista de desejos, lista de presentes ou o usuário tendo uma tela com detalhes do seu perfil, histórico de todas as compras. Facilmente nossa widget tree ficará maior, mais complexa, mais entrelaçada.  -->
+Neste exemplo, nossa árvore de widgets é pequena. Imagine se dentro do catálogo tivéssemos uma divisão por categorias e sub-categorias ou que no carrinho poderíamos ter lista de desejos, lista de presentes ou o usuário tendo uma tela com detalhes do seu perfil, histórico de todas as compras. Facilmente nossa widget tree ficará maior, mais complexa, mais entrelaçada.
 
 Sendo assim, temos vários widgets que podem consumir e/ou atualizar o estado da aplicação. 
 
@@ -32,5 +32,3 @@ Reconstruir apenas a quantidade necessária de widgets quando o estado da aplica
 <div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q5V22FpFDv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
-<!-- E como não desviar desta regra? Utilizando alguma solução de [gerenciamento de estado](https://flutter.dev/docs/development/data-and-backend/state-mgmt/options). -->
