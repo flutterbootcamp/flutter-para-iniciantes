@@ -5,7 +5,7 @@ description: 'Entender a arquitetura do Flutter é importante, precisamos entend
 
 # Arquitetura
 
-Entender a arquitetura do Flutter é importante, precisamos entender onde o nosso código se "encaixa" nesta estrutura.
+Entenda onde o seu código se "encaixa" nesta estrutura.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

@@ -3,33 +3,33 @@ import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
-  {
-    title: 'Este livro é para você',
-    Svg: require('../../static/img/Code Development _Outline.svg').default,
-    description: (
-      <>
-        Que deseja aprender Flutter e quer um conteúdo de qualidade e estruturado.
-      </>
-    ),
-  },
-  {
-    title: 'Comece por aqui',
-    Svg: require('../../static/img/Mobile Phone_Outline.svg').default,
-    description: (
-      <>
-        Idealizado para servir como guia à qualquer pessoa interessada em escrever os seus primeiros aplicativos com Flutter.
-      </>
-    ),
-  },
-  {
-    title: 'Open source',
-    Svg: require('../../static/img/Team building _Outline.svg').default,
-    description: (
-      <>
-        Ele é gratuito, open source e estará sempre aberto à críticas e sugestões.
-      </>
-    ),
-  },
+  // {
+  //   title: 'Este livro é para você',
+  //   Svg: require('../../static/img/Code Development _Outline.svg').default,
+  //   description: (
+  //     <>
+  //       Que deseja aprender Flutter e quer um conteúdo de qualidade e estruturado.
+  //     </>
+  //   ),
+  // },
+  // {
+  //   title: 'Comece por aqui',
+  //   Svg: require('../../static/img/Mobile Phone_Outline.svg').default,
+  //   description: (
+  //     <>
+  //       Idealizado para servir como guia à qualquer pessoa interessada em escrever os seus primeiros aplicativos com Flutter.
+  //     </>
+  //   ),
+  // },
+  // {
+  //   title: 'Open source',
+  //   Svg: require('../../static/img/Team building _Outline.svg').default,
+  //   description: (
+  //     <>
+  //       Ele é gratuito, open source e estará sempre aberto à críticas e sugestões.
+  //     </>
+  //   ),
+  // },
 ];
 
 function Feature({ Svg, title, description }) {
