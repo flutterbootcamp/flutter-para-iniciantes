@@ -56,8 +56,6 @@ class MeuMaterialApp extends StatelessWidget {
 
 ```
 
-<!-- ![Material](/img/material.png) -->
-
 <iframe height="300" width="100%;" scrolling="no" title="MeuMaterialApp" src="https://codepen.io/rubensdemelo/embed/yLYGyKE?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/rubensdemelo/pen/yLYGyKE">
   MeuMaterialApp</a> by rubensdemelo (<a href="https://codepen.io/rubensdemelo">@rubensdemelo</a>)

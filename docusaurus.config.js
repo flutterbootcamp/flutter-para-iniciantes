@@ -59,6 +59,7 @@ const config = {
       //   textColor: '#091E42',
       //   isCloseable: false,
       // },
+      metadata: [{name: 'keywords', content: 'flutter, flutterbootcamp, iniciantes'}],
       navbar: {
         title: "Flutter para iniciantes",
         logo: {

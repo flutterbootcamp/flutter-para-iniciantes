@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 6
 description: Vamos falar sobre a experiência de desenvolver com Flutter
 ---
 

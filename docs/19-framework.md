@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 19
 description:
   'Entenda o framework e como seu código se conecta com o Flutter'
 ---
