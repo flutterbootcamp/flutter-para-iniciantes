@@ -18,6 +18,8 @@ Conforme você avançar no aprendizado, descobrirá que o Scaffold é apenas a p
 
 ![Scaffold](/img/scaffold.png)
 
+#### Este vídeo aborda o `Scaffold` em detalhes:
+
 <div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qIg_kor8apo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
