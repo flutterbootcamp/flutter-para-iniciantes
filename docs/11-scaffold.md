@@ -16,7 +16,16 @@ A organização visual e a estruturação das telas são aspectos fundamentais q
 
 Conforme você avançar no aprendizado, descobrirá que o Scaffold é apenas a ponta do iceberg. Mas sem dúvida, é um widget indispensável.
 
-![Scaffold](/img/scaffold.png)
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<ThemedImage
+  alt="Scaffold"
+  sources={{
+    light: useBaseUrl('/img/scaffold-light.svg'),
+    dark: useBaseUrl('/img/scaffold-dark.svg'),
+  }}
+/>;
 
 #### Este vídeo aborda o `Scaffold` em detalhes:
 
