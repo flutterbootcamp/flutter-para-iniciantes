@@ -4,11 +4,17 @@ sidebar_position: 7
 
 # dartpad.dev
 
-Com ele, é possível escrever os primeiros códigos utilizando o browser.
+É um IDE online para Dart e Flutter, permitindo que você escreva, execute e compartilhe códigos diretamente em um browser. 
+
+Ideal para aprender, afinal, o resultado da execução do código é instantâneo.
+
+Acelera a prototipação, pois não requer configuração ou instalação.
+
+Facilita o compartilhamento, basta criar um Github Gist com o link do dartpad.dev.
 
 [dartpad.dev](http://dartpad.dev/)
 
-![Arquitetura](/img/dartpad.dev.png)
+![dartpad.dev](/img/dartpad.dev.png)
 
 #### Este vídeo explora o poder do `dartpad.dev`:
 
