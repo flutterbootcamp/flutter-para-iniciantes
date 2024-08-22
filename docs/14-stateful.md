@@ -30,7 +30,7 @@ class _MeuWidgetMutavelState extends State<MeuWidgetMutavel> {
 
 Mas não se engane, pois a diferença não é apenas no nome dos métodos. Lembre-se que ao criar um objeto do tipo [State](https://api.flutter.dev/flutter/widgets/State-class.html), um [Stateful](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html) widget ganha poderes mutáveis?! Então, é dentro dele que a mágica acontece.
 
-Nosso `MeuWidgetImutavel` ao ser construído pelo framework, executa o método `createState()` (linha 5) e este por sua vez, executa apenas 1 função, que é instanciar `_MeuWidgetImutavelState`. Ele é um filho de [State](https://api.flutter.dev/flutter/widgets/State-class.html), logo, herda algumas características e comportamentos (linha 8).
+Nosso `MeuWidgetMutavel` ao ser construído pelo framework, executa o método `createState()` (linha 5) e este por sua vez, executa apenas 1 função, que é instanciar `_MeuWidgetMutavelState`. Ele é um filho de [State](https://api.flutter.dev/flutter/widgets/State-class.html), logo, herda algumas características e comportamentos (linha 8).
 
 <div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zjwQKf_cRRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
