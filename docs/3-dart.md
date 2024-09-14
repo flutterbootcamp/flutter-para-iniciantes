@@ -1,31 +1,15 @@
 ---
-sidebar_position: 8
+sidebar_position: 3
 description: 'Entender a arquitetura do Flutter é importante, precisamos entender toda a "anatomia" dos nossos aplicativos.'
 ---
 
 # DART
 
-:::tip Não tenha medo
-É a linguagem de programação criada pelo Google e utilizada para escrever o
-Flutter.
-:::
+É a linguagem de programação criada pelo Google e utilizada para escrever o Flutter.
 
-Flutter sofre algumas críticas pelo fato de utilizar Dart, mas é graças à ela que ele se torna um framework único, tanto para o desenvolvedor quanto para o usuário final. O desenvolvedor tem uma incrível [experiência](5-developer-experience.md) e o usuário final tem um aplicativo nativo, de alta performance.
+Graças ao DART, o Flutter se torna um framework único, tanto para o desenvolvedor quanto para o usuário final. O desenvolvedor tem uma incrível [experiência](5-developer-experience.md) e o usuário final tem um aplicativo nativo, de alta performance.
 
-Caso você já possua experiência com qualquer linguagem _C-style_, irá perceber que Dart é muito amigável e não terá dificuldades em aprendê-la.
-
-Recomendo o estudo deste [guia](https://dart.dev/guides/language/language-tour), aqueles que gostam de se familiarizar com a linguagem antes de aprender o framework. Particularmente, não vejo necessidade de se aprofundar para começar. O conhecimento básico, proporcionado pelo guia, é suficiente para dar os primeiros passos e sentir a deliciosa experiência de construir um aplicativo bacana.
-
-À medida que avançarmos com o conteúdo, você irá aprender Dart aos poucos, não se preocupe.
-
-#### Este vídeo aborda alguns detalhes da linguagem:
-
-<div class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nh0h4eBM0SE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-
-Algumas características da linguagem:
+Caso você já possua experiência com qualquer linguagem _C-style_, irá perceber que Dart é muito amigável e não terá dificuldades em aprendê-la:
 
 - Tipada, porém isto é opcional.
 - Moderna (generics\, funções, interfaces e mixins).
@@ -41,6 +25,40 @@ Tipos suportados:
 - collections (list, set, map)
 - rune ( representar UNICODE caracteres como string)
 - symbols
+
+Este [guia](https://dart.dev/guides/language/language-tour) te ajudará a se familiarizar com a linguagem antes de aprender o framework. 
+
+O conhecimento básico proporcionado pelo guia, é suficiente para dar os primeiros passos e sentir a deliciosa experiência de construir um aplicativo Flutter.
+
+**Este vídeo aborda alguns detalhes da linguagem:**
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nh0h4eBM0SE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+
+### dartpad.dev
+
+É um IDE online para Dart e Flutter, permitindo que você escreva, execute e compartilhe códigos diretamente em um browser. 
+
+Ideal para aprender, afinal, o resultado da execução do código é instantâneo.
+
+Acelera a prototipação, pois não requer configuração ou instalação.
+
+Facilita o compartilhamento, basta criar um Github Gist com o link do dartpad.dev.
+
+[dartpad.dev](http://dartpad.dev/)
+
+![dartpad.dev](/img/dartpad.dev.png)
+
+#### Este vídeo explora o poder do `dartpad.dev`:
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rgI3CgvTpu8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
 
 ### hello world
 
@@ -73,13 +91,9 @@ String name = 'Voyager I';
 var name = 'Voyager I';
 ```
 
-:::info
+### Inferência
 
 Por inferência, Dart identifica o tipo da variável e nos garante todos os benefícios da tipagem estática, por isso a tal tipagem "opcional".
-
-:::
-
-### Inferência
 
 ```dart
 var name = 'Voyager I';
@@ -139,3 +153,4 @@ try {
   flybyObjects.clear();
 }
 ```
+

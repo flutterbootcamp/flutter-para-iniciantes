@@ -1,11 +1,11 @@
 ---
-sidebar_position: 6
-description: Vamos falar sobre a experiência de desenvolver com Flutter
+sidebar_position: 2
+description: Tudo no Flutter é um widget
 ---
 
 # Widgets
 
-Todo aplicativo Flutter é um widget. Composto de outra centenas de widgets. Portanto, entende-los é mais do que a nossa obrigação. Uma coisa bacana, é que na própria documentação do Flutter, eles deixam claro que a inspiração para os widgets vieram do [React](https://pt-br.reactjs.org/). Assim como no framework do Facebook, todo aplicativo é baseado em componentes, no Flutter é baseado em widgets. 
+Todo aplicativo Flutter é um widget. Composto de outra centenas de widgets. Portanto, entende-los é mais do que a nossa obrigação. Uma coisa bacana, é que na própria documentação do Flutter, eles deixam claro que a inspiração para os widgets vieram do [React](https://pt-br.reactjs.org/). Assim como no framework do Facebook, todo aplicativo é baseado em componentes, no Flutter todo aplicativo é baseado em widgets. 
 
 _**"A ideia central é que você construa sua interface com widgets"**_
 
@@ -39,7 +39,7 @@ Widgets de **interface**, são aqueles que efetivamente estão visíveis ao usu�
 * [Switch](https://api.flutter.dev/flutter/material/Switch-class.html)
 
 :::info
-No [catálogo](https://flutter.dev/docs/development/ui/widgets), temos mais de 170 widgets documentados \(vale a pena dar uma conferida\). 
+No [catálogo](https://flutter.dev/docs/development/ui/widgets), temos mais de 205 widgets documentados \(vale a pena dar uma conferida\). 
 :::
 
 Precisamos dar destaque para 2 conjuntos de widgets amplamente utilizados e que já abordei na seção Visão Geral, o primeiro e mais popular é o [Material](https://flutter.dev/docs/development/ui/widgets/material) package, que segue as definições de layout do Material Design e o [Cupertino](https://flutter.dev/docs/development/ui/widgets/cupertino) package, seguindo as definições de design do iOS.
