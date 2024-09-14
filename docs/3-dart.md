@@ -7,7 +7,7 @@ description: 'Entender a arquitetura do Flutter é importante, precisamos entend
 
 É a linguagem de programação criada pelo Google e utilizada para escrever o Flutter.
 
-Graças ao DART, o Flutter se torna um framework único, tanto para o desenvolvedor quanto para o usuário final. O desenvolvedor tem uma incrível [experiência](5-developer-experience.md) e o usuário final tem um aplicativo nativo, de alta performance.
+Graças ao DART, o Flutter se torna um framework único, tanto para o desenvolvedor quanto para o usuário final. O desenvolvedor tem uma incrível experiência e o usuário final tem um aplicativo nativo, de alta performance.
 
 Caso você já possua experiência com qualquer linguagem _C-style_, irá perceber que Dart é muito amigável e não terá dificuldades em aprendê-la:
 
