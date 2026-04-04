@@ -70,8 +70,6 @@ adicionar os produtos -> proceder para o checkout -> realizar o pagamento -> "co
 
 Percorrer todo esse fluxo à cada alteração para verificar o resultado final irá consumir bastante tempo. Mas não com Flutter, utilizando o hot reload.
 
-As alterações realizadas no código são refletidas em até 0,5s (no emulador ou aparelho), sem perder o estado da aplicação, o que é muito importante. Imagine um fluxo de carrinho de compras em que precisamos alterar a mensagem "compra realizada com sucesso", após adicionar os produtos, proceder ao checkout e realizar o pagamento. Percorrer todo esse fluxo a cada alteração para verificar o resultado final consumiria bastante tempo. Mas não com o Flutter, utilizando o hot reload.
-
 ### Hot restart
 
 Quando o aplicativo é reinicializado, ou seja, perde-se o estado atual, todo o processo ocorre em menos de 2s. Alguns tipos de alterações exigem que seja feito um hot restart.
